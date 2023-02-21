@@ -1,0 +1,79 @@
+@font-face {
+  font-family: "Lexend Deca";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lexenddeca/v17/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1ArA.ttf)
+    format("truetype");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+:root {
+  font-family: "Lexend Deca", sans-serif;
+}
+.group-contact {
+  grid-area: left1;
+}
+.body-hero .image-star {
+  grid-area: right1;
+}
+.body-hero .image-star img {
+  width: 570px;
+  height: 314px;
+}
+.body-hero {
+  display: grid;
+  grid-template-areas:
+    "left1 right1 right1 right1"
+    "left1 right1 right1 right1"
+    "left1 right1 right1 right1";
+  justify-content: space-between;
+  width: 1200px;
+  height: 395px;
+  grid-template-columns: 100px 200px auto;
+  grid-template-rows: 60px;
+  border: 10px;
+  margin: 0 auto;
+}
+.group-contact {
+  width: 560px;
+  height: 335px;
+  background-color: #ababe0;
+  margin: 0 30px 0 0;
+  padding: 10px;
+}
+.Contact {
+  margin: 0 0 10px 0;
+  width: 540px;
+  height: 22.4px;
+}
+.Get-our {
+  width: 540px;
+  height: 143.19px;
+  background-color: lightgreen;
+  padding: 0 0 20px;
+  text-align: left;
+  color: #0f110f;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  margin: 0;
+}
+.text-find {
+  background-color: aqua;
+  width: 540px;
+  height: 68.39px;
+  color: #666666;
+  text-align: left;
+  color: #0f110f;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+}
