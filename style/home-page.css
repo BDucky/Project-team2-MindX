@@ -1,0 +1,161 @@
+body {
+  margin: auto;
+  background: url("https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png") no-repeat center center;
+  background-size: cover;
+  width: 100%;
+  position: relative;
+  font-family: "Lexend Deca", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -0.011em;
+  text-align: left;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+.home-page-top-section {
+  position: relative;
+}
+.page-header-container {
+  margin-top: 16px;
+  background: transparent;
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  padding: 0.25rem 1.5rem;
+  height: 70px;
+}
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+  background: #ffffff;
+  margin-top: 0;
+  padding: 0;
+}
+.page-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1400px;
+  border-bottom: 1px solid #0000000d;
+  padding-bottom: 8px;
+  height: 70px;
+}
+.page-header-title a h5 {
+  font-weight: 600;
+  letter-spacing: -0.021em;
+  font-size: 28px;
+  padding: 0;
+  margin-left: 16px;
+  margin: 0;
+}
+.page-header-subtitle {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+  flex-basis: auto;
+}
+.page-header-subtitle-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  margin-bottom: 0;
+  list-style: none;
+}
+.page-header-subtitle-list li {
+  margin-right: 5rem;
+}
+.page-header-subtitle-list .page-header-home {
+  position: relative;
+}
+.page-header-subtitle-list .page-header-home a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header-subtitle-list .page-header-about-us {
+  position: relative;
+}
+.page-header-subtitle-list .page-header-about-us a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header-subtitle-list .page-header-our-team {
+  position: relative;
+}
+.page-header-subtitle-list .page-header-our-team a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header-subtitle-list .page-header-contact-us {
+  position: relative;
+}
+.page-header-subtitle-list .page-header-contact-us a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header-subtitle-list .page-header-shop {
+  position: relative;
+}
+.page-header-subtitle-list .page-header-shop a {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page-header-subtitle .page-header-contact-btn {
+  margin-left: 20px;
+}
+.page-header-subtitle .page-header-contact-btn a div {
+  border: 1px solid #21252980;
+  background: #212529;
+  color: #ffffff;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  white-space: nowrap;
+  line-height: 1;
+  padding: 9px 22px;
+  border-radius: 7px;
+  transition: color 450ms, background 450ms;
+}
