@@ -220,6 +220,964 @@ a {
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn a > div {
   color: white;
 }
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 100%;
+  align-items: center;
+}
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-img {
+  width: 100%;
+  margin: 0px 20px 0px 0px;
+  --e-column-margin-right: 20px;
+  --e-column-margin-left: 0px;
+}
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-img img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+  height: 50%;
+}
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-title {
+  width: 100%;
+  color: #3B3B3BAB;
+  font-family: "Inter", Sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
 .home-page-get-started-wrapper .content-wrapper .get-started-img {
   flex-basis: 50%;
+}
+.home-page-get-started-wrapper .content-wrapper .get-started-img img {
+  width: 100%;
+}
+.marquee-section {
+  background-color: #F7F7F7;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  position: relative;
+  --widgets-spacing: 20px;
+}
+.marquee-section .marquee-wrapper {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1200px;
+}
+.marquee-section .marquee-wrapper .marquee-content {
+  width: 100%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.marquee-section .marquee-wrapper .marquee-content-wrapper {
+  padding: 40px 0px 40px 0px;
+  width: 100%;
+  overflow: hidden;
+  --e-image-carousel-slides-to-show: 6;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s, transform var(--e-transform-transition-duration, 0.4s);
+  transition-duration: 0ms;
+  display: flex;
+  align-items: center;
+}
+.marquee-section .marquee-wrapper .marquee-content img {
+  width: 115px;
+  margin-right: 86px;
+  height: 100%;
+  flex-shrink: 0;
+  position: relative;
+  text-align: center;
+}
+.second-section {
+  background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/ithg3.png);
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 60px 0px;
+}
+.mission-section-wrapper {
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  max-width: 1140px;
+}
+.mission-section-wrapper .mission-section-content {
+  width: 100%;
+}
+.mission-section-wrapper .mission-section-content-wrapper {
+  width: 100%;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px 0px 60px 0px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img {
+  width: 50%;
+  animation-name: fadeIn;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper {
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .color-img {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .color-img img {
+  vertical-align: middle;
+  display: inline-block;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .main-img {
+  width: 100%;
+  text-align: center;
+  margin: 60px 60px 60px 60px;
+  padding: 0px 0px 0px 0px;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .main-img img {
+  border-radius: 10px 10px 10px 10px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  box-shadow: none;
+  vertical-align: middle;
+  display: inline-block;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description {
+  width: 50%;
+  animation-name: fadeIn;
+  align-content: center;
+  align-items: center;
+  display: flex;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper {
+  align-content: center;
+  align-items: center;
+  padding: 0px 10px 0px 40px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-title {
+  width: 100%;
+  text-align: left;
+  color: #272C2E;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-subtitle {
+  margin: 0px 0px 20px 0px;
+  color: #3B3B3B;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate {
+  width: 100%;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper {
+  margin: 0px 0px 10px 0px;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item {
+  border-radius: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 20px 0px;
+  display: flex;
+  transition: all 0.3s ease-in-out;
+  width: auto;
+  position: relative;
+  justify-content: flex-start;
+  overflow: hidden;
+  transform-origin: left center;
+  list-style-position: inside;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper {
+  display: flex;
+  flex-direction: row;
+  order: 5;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-bullet {
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: relative;
+  z-index: 500;
+  font-size: 19px;
+  color: #50AF9B;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-bullet ::before {
+  content: "\f192";
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-title {
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 1em;
+  letter-spacing: 0px;
+  color: #272C2E;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #262C2E;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px 40px 15px 40px;
+  text-align: center;
+  color: #fff;
+  min-width: 3.25rem;
+  text-shadow: none !important;
+  line-height: 22px;
+  transition: all 0.45s;
+}
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn a > div {
+  color: white;
+}
+.text-ad {
+  width: 100%;
+  padding: 100px 0px 40px 0px;
+  animation-name: fadeIn;
+}
+.text-ad-container {
+  max-width: 560px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.text-ad-container .text-ad-display {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.text-ad-container .text-ad-display .text-ad-title {
+  margin-bottom: 0px;
+  text-align: center;
+  color: #272C2E;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  width: 100%;
+  --widgets-spacing: 20px;
+}
+.text-ad-container .text-ad-display .text-ad-subtitle {
+  text-align: center;
+  color: #3B3B3B;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  width: 100%;
+  --widgets-spacing: 20px;
+}
+.visibility-container {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.visibility-container .visibility-btn-container {
+  width: 66.7%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.visibility-container .visibility-btn-container .visibility-btn-content {
+  background-color: #EE8735;
+  background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/rkvjr.png);
+  background-position: 207px 182px;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 20px 20px 20px 20px;
+  --e-column-margin-right: 20px;
+  --e-column-margin-left: 20px;
+  padding: 40px 40px 40px 40px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.visibility-container .visibility-btn-container .visibility-btn-content .content {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  text-align: left;
+  color: #272C2E;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.visibility-container .visibility-btn-container .visibility-btn-content .btn {
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.visibility-container .visibility-btn-container .visibility-btn-content .btn-get-started {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #262C2E;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px 40px 15px 40px;
+  color: #fff;
+  min-width: 3.25rem;
+  text-align: center;
+  text-shadow: none !important;
+  line-height: 22px;
+  transition: all 0.45s;
+  border: none;
+  text-decoration: none;
+}
+.visibility-container .visibility-keyword-container {
+  width: 33.3%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content {
+  justify-content: flex-start;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 20px 20px 20px 20px;
+  --e-column-margin-right: 20px;
+  --e-column-margin-left: 20px;
+  padding: 40px 40px 40px 40px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #FFFFFF;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-img {
+  text-align: left;
+  width: auto;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-img img {
+  width: 55px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text .title {
+  text-align: left;
+  color: #010101;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  width: 100%;
+}
+.visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text .content {
+  text-align: left;
+  color: #3B3B3BB8;
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+  width: 100%;
+}
+.SEO-section {
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+}
+.SEO-section .SEO-container {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.SEO-section .SEO-container .SEO-content-container {
+  width: 33.333%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content {
+  justify-content: flex-start;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 20px 20px 20px 20px;
+  --e-column-margin-right: 20px;
+  --e-column-margin-left: 20px;
+  padding: 40px 40px 40px 40px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  background-color: #FFFFFF;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-img {
+  text-align: left;
+  width: auto;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-img img {
+  width: 55px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text .title {
+  text-align: left;
+  color: #010101;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 21px;
+  font-weight: 500;
+  margin-bottom: 0px;
+  width: 100%;
+}
+.SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text .content {
+  text-align: left;
+  color: #3B3B3BB8;
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.6em;
+  width: 100%;
+}
+.third-section {
+  background-color: #262C2E;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding: 100px 0px 0px 0px;
+  position: relative;
+}
+.third-section .service-introduction {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.third-section .service-introduction-container {
+  min-height: 1px;
+  display: flex;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.third-section .service-introduction-container section .introduction-numbers {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 20px 0px 20px;
+  width: 100%;
+}
+.third-section .service-introduction-container section .introduction-numbers-container {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers {
+  width: 44.244%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+  animation-duration: 1.25s;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container {
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .title {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  padding: 0px 0px 20px 0px;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .subtitle {
+  color: #FFFFFF99;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics {
+  width: 100%;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container {
+  max-width: 1140px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers {
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display {
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+  display: flex;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number {
+  margin-bottom: 0px;
+  color: #2CBCA5;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 1.4em;
+  width: 100%;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number-title {
+  color: #FFFFFF;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  max-width: 200px;
+  --container-widget-width: 200px;
+  --container-widget-flex-grow: 0;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .img {
+  width: 55.713%;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .img-container {
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  text-align: center;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .img-container .img-display {
+  margin: 0px 40px 0px 60px;
+}
+.third-section .service-introduction-container section .introduction-numbers-container .img-container .img-display img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.third-section .service-introduction-container section .view-team-section {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 80px 20px 100px 20px;
+  width: 100%;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img {
+  width: 55.713%;
+  animation-name: fadeIn;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container {
+  padding: 0px 0px 0px 0px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  text-align: center;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container .img-display {
+  margin: 0px 40px 0px 60px;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container .img-display img {
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details {
+  width: 44.244%;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container {
+  display: flex;
+  align-content: center;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .title {
+  text-align: left;
+  color: #FFFFFF;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .subtitle {
+  color: #FFFFFF99;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .btn {
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .btn .view-team-btn {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  fill: #50AF9B;
+  color: #50AF9B;
+  background-color: #25262A00;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
+  padding: 0px 0px 0px 0px;
+}
+.fourth-section {
+  background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png);
+  background-position: center right;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.fourth-section .billing {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.fourth-section .billing-container {
+  position: relative;
+  min-height: 1px;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 100%;
+  padding: 0px 0px 0px 0px;
+}
+.fourth-section .billing-container section .billing-section {
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 100px 0px 90px 0px;
+  width: 100%;
+}
+.fourth-section .billing-container section .billing-section-container {
+  max-width: 1200px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.fourth-section .billing-container section .billing-section-container .details {
+  width: 38.647%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.fourth-section .billing-container section .billing-section-container .details-container {
+  align-content: center;
+  align-items: center;
+  padding: 0px 0px 0px 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-top-img {
+  max-width: 100%;
+  margin-bottom: 0;
+  width: auto;
+  z-index: 1;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-top-img img {
+  width: 95px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  vertical-align: middle;
+  display: inline-block;
+  aspect-ratio: auto 625 / 449;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-title {
+  text-align: left;
+  color: #272C2E;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 1.1em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-subtitle {
+  color: #3B3B3B;
+  font-family: "Inter", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  padding: 0px 0px 20px 0px;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-btn {
+  width: 100%;
+  text-align: left;
+  position: relative;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-btn .learn-more-btn {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0px;
+  fill: #50AF9B;
+  color: #50AF9B;
+  background-color: #25262A00;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
+  padding: 0px 0px 0px 0px;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-bottom-img {
+  max-width: 100%;
+  margin-bottom: 0;
+  width: auto;
+  z-index: 1;
+  text-align: center;
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+.fourth-section .billing-container section .billing-section-container .details-container .detail-bottom-img img {
+  width: 95px;
+  height: auto;
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
+  vertical-align: middle;
+  display: inline-block;
+  aspect-ratio: auto 625 / 449;
+  overflow-clip-margin: content-box;
+  overflow: clip;
+}
+.fourth-section .billing-container section .billing-section-container .payments {
+  width: 61.31%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container {
+  margin: 0px 0px 0px 0px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 0px;
+  padding: 0px 0px 0px 0px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  display: flex;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  padding: 0px 10px 0px 40px;
+  z-index: 5;
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods {
+  width: 50%;
+  position: relative;
+  min-height: 1px;
+  display: flex;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container {
+  background-color: #FFFFFF;
+  justify-content: center;
+  box-shadow: 0px 0px 0px 0px rgba(132, 132, 132, 0);
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  margin: 20px 0px 20px 20px;
+  --e-column-margin-right: 0px;
+  --e-column-margin-left: 20px;
+  padding: 30px 30px 30px 30px;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier {
+  text-align: left;
+  color: #D351B0;
+  font-family: "Inter", Sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  width: auto;
+  max-width: 100%;
+  margin: 0px 0px 2px 0px;
+  padding: 7px 20px 7px 20px;
+  background-color: #FFDAF5;
+  border-radius: 2px 2px 2px 2px;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .price {
+  text-align: center;
+  width: auto;
+  margin-bottom: 0;
+  max-width: 100%;
+  padding: 15px 0px 15px 0px;
+  color: #272C2E;
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 56px;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark {
+  width: 100%;
+  --e-icon-list-icon-size: 18px;
+  padding: 30px 0px 20px 0px;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
 }
