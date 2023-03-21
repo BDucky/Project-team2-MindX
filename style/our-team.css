@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Lexend Deca", Sans-serif;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(15px);
+    opacity: 0;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: all 215ms;
+    color: #6664e4;
+}
+
+.head {
+    background-color: #FFFFFF;
+    background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/kjgrn.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    padding: 40px 10px 0px 10px;
+}
+
+.head-ourteam {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.head-ourteam-words .head-ourteam-title {
+    text-align: left;
+    color: #2CBCA5;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+}
+
+.head-ourteam-words .head-ourteam-body {
+    text-align: left;
+    color: #0F110F;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+}
+
+.head-ourteam-words .head-ourteam-p {
+    text-align: left;
+    color: #666666;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+.head-ourteam-words {
+    width: 500px;
+}
+
+.head-ourteam .head-imgs img {
+    height: 315px;
+    object-fit: contain
+}
+
+.head-imgs {
+    position: relative;
+    top: 50px;
+    right: 180px;
+}
+
+.ceo-card-1 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+.ceo-card-1 img {
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.ceo-card-1 .ceo-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.ceo-card-1 .ceo-position {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ceo-card-2 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ceo-card-2 img {
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.ceo-card-2 .ceo-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.ceo-card-2 .ceo-position {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ceo-card-3 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ceo-card-3 img {
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.ceo-card-3 .ceo-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.ceo-card-3 .ceo-position {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ceo {
+    padding: 75px;
+}
+
+.body {
+    background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/efvij.png);
+    background-position: bottom center;
+    background-size: cover;
+}
+
+.want-to-join {
+    width: 100%;
+    height: 350px;
+    background-color: #0F110F;
+    margin-top: 9px;
+}
+
+.want-to-join-words {
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.want-to-join-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.want-to-join-words .want-to-join-words-elements-1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+}
+
+.want-to-join-words .want-to-join-words-elements-2 {
+    text-align: left;
+    color: #8B8B8B;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+.background-icon {
+    background-color: #0F110F;
+    flex-basis: 20%;
+}
+
+.background-icon img {
+    width: 250px;
+    height: auto;
+}
+
+.button-a {
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #50AF9B;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 20px 60px 0px rgb(255 166 84 / 0%);
+    padding: 15px 40px 15px 40px;
+
+}
+
+.button-a:hover {
+    background-color: #FFFFFF;
+    transition: all .45s
+}
+
+.button-a a:hover {
+    color: #0F110F;
+}
+
+.button-a a {
+    color: #FFFFFF;
+}
+
+.footer {
+    padding-top: 56px;
+}
+
+.footer .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.footer .footer-Selo {
+    padding: 0px 0px 32px;
+    width: 188px;
+}
+
+.footer-Selo h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-Selo p {
+    margin: 0px 0px 18px;
+    font: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer .footer-email {
+    padding: 0px 0px 32px;
+}
+
+
+.footer-email h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-email p {
+    margin: 0px 0px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer .footer-number {
+    padding: 0px 0px 32px;
+    margin-right: 200px;
+}
+
+.footer-number h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-number p {
+    margin: 0px 0px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 116px;
+}
+
+.footer-bottom .footer-Copyright {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #a0a1a2;
+    margin-left: 30px;
+}
+
+.footer-bottom .footer-menu {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+
+}
+
+.footer-bottom .footer-navbar-menu li {
+    position: relative;
+    right: 30px;
+    color: black;
+}
+
+.footer-menu li {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    line-height: 1.7rem;
+    font-size: 14px;
+
+}
+
+
+li {
+    list-style: none;
+
+}

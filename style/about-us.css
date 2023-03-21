@@ -1,0 +1,887 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.reveal {
+    position: relative;
+    transform: translateY(15px);
+    opacity: 0;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
+    transition: all 2s ease;
+}
+
+.head {
+    height: 600px;
+    width: 100%;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    background-color: #FFFFFF;
+    background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/kjgrn.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.font-head {
+    position: relative;
+    margin: 100px;
+    margin-right: 320px;
+    left: 80px;
+    width: 600px;
+    padding-top: 20px;
+}
+
+.font-head .middle-title {
+    text-align: left;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 2.1em;
+    letter-spacing: -0.3px;
+
+}
+
+.font-head-imgs {
+    width: 500px;
+}
+
+.font-head-imgs img {
+    position: relative;
+    height: auto;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: 292px;
+    width: 247px;
+    right: 79px;
+    top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    cursor: pointer;
+    transition: all 215ms;
+    color: #6664e4;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.head .head-title {
+    color: #2CBCA5;
+    font-size: 16px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.4em;
+    letter-spacing: 1px;
+    font-family: 'Lexend Deca', sans-serif;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.body-head-buttons {
+    letter-spacing: -0.3px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+
+.title-info {
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+    position: relative;
+    top: 22px;
+}
+
+.body-head {
+    min-height: 1px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.body-head .body-head-font {
+    padding: 100px;
+    width: 1000px;
+    position: relative;
+    left: 72px;
+}
+
+.body-head .body-head-font-2 {
+    width: 1000px;
+    position: relative;
+    left: 29px;
+    bottom: -7px;
+}
+
+.second-body {
+    text-align: left;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+    padding-bottom: 0px;
+    width: 500px;
+}
+
+.body-head-font-2 a {
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    fill: #0F110F;
+    color: #0F110F
+}
+
+.body-head-buttons a {
+    border-bottom: 2px solid blue;
+    padding: 5px;
+}
+
+.body-head-font-2 .body-head-buttons {
+    position: relative;
+    top: 10px;
+
+}
+
+.body-head-font-2 a:hover {
+    transition: all 215ms;
+    color: #6664e4;
+}
+
+
+.body-head .first-body-imgs img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 1024px;
+    height: 480px;
+    padding-top: 35px;
+}
+
+.body-head .second-body-imgs img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-style: none;
+    border-radius: 10px 10px 10px 10px;
+    width: 500px;
+    height: 450px;
+    position: relative;
+    top: 52px;
+
+}
+
+
+
+.body .first-body {
+    text-align: left;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+    width: 500px;
+    padding-bottom: 10px;
+}
+
+.body-head-number {
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding: 40px 0px 0px 0px;
+    display: flex;
+    justify-content: space-around;
+    height: 200px;
+    position: relative;
+    left: 30px;
+}
+
+.body-head-first-number .body-head-first-number-1 {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.6em;
+    position: relative;
+    left: 34px;
+}
+
+.body-head-first-number {
+    position: relative;
+    left: 80px;
+}
+
+.body-head-first-number .body-head-first-word {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.6em;
+    position: relative;
+    left: 35px;
+}
+
+.body-head-first-number-info {
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.body-head-second-number .body-head-second-number-2 {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.6em;
+    position: relative;
+    left: 15px;
+}
+
+.body-head-second-number .body-head-second-word {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.6em;
+    position: relative;
+    left: 10px;
+}
+
+.body-head-second-number .body-head-second-number-info {
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.body-head-third-number .body-head-third-number-3 {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.6em;
+    position: relative;
+    left: 50px;
+}
+
+.body-head-third-number .body-head-third-number-info {
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.3em;
+    letter-spacing: 1px;
+}
+
+.value-all {
+    background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/efvij.png);
+    background-position: bottom center;
+    background-size: cover;
+    height: 780px;
+}
+
+.value-about-us {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    justify-content: center;
+}
+
+.value-about-us .value-about-us-elment {
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+    text-align: center;
+    width: 600px;
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.value-about-us .value-about-us-elment-detail {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+    width: 600px;
+    display: inline-block;
+    padding-top: 10px;
+}
+
+.value-about-us-icon {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 10px;
+    height: 350px;
+    margin: 50px;
+}
+
+.value-about-us-icon .value-about-us-icon-1 {
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    height: 300px;
+    position: relative;
+    left: 80px;
+}
+
+.value-about-us-icon .value-about-us-icon-2 {
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    height: 300px;
+}
+
+.value-about-us-icon .value-about-us-icon-3 {
+    border-radius: 10px 10px 10px 10px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+    margin: 20px 20px 20px 20px;
+    padding: 40px 40px 40px 40px;
+    height: 300px;
+    position: relative;
+    right: 80px;
+}
+
+.value-about-us-icon-1 {
+    text-align: center;
+    width: 350px;
+    height: 265px;
+    background-color: whitesmoke
+}
+
+.value-about-us-icon-1 .img-icon-trs img {
+    width: 80px;
+}
+
+.trans {
+    color: #1A1A1A;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.value-about-us-trans p {
+    margin: 0px 0px 0px 0px;
+    color: #666666C7;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em
+}
+
+.value-about-us-icon-2 {
+    text-align: center;
+    width: 350px;
+    height: 265px;
+    background-color: whitesmoke
+}
+
+.value-about-us-icon-2 .img-icon-ex img {
+    width: 80px;
+}
+
+.exp {
+    color: #1A1A1A;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.value-about-us-ex p {
+    margin: 0px 0px 0px 0px;
+    color: #666666C7;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.value-about-us-icon-3 {
+    text-align: center;
+    width: 350px;
+    height: 265px;
+    background-color: whitesmoke
+}
+
+.value-about-us-icon-3 .img-icon-resu img {
+    width: 80px;
+}
+
+.resu {
+    color: #1A1A1A;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+.value-about-us-resu p {
+    margin: 0px 0px 0px 0px;
+    color: #666666C7;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6em;
+}
+
+.card-show {
+    display: flex;
+    width: 100%;
+    height: 400px;
+}
+
+.card-1 img {
+    max-width: 100%;
+}
+
+.card-2 img {
+    max-width: 100%;
+
+}
+
+.card-3 img {
+    max-width: 100%;
+
+}
+
+.card-4 img {
+    max-width: 100%;
+
+}
+
+.team {
+    width: 100%;
+    display: grid;
+    padding: 40px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.team-introduce {
+    width: 100%;
+    height: 200px;
+    display: grid;
+    justify-content: center
+}
+
+.team-introduce-title {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px
+}
+
+.team .team-introduce-title {
+    padding: 20px;
+}
+
+.team-introduce-info {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em
+}
+
+.team-introduce .team-introduce-info {
+    width: 600px;
+}
+
+
+
+.ceo-card-1 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 75px;
+}
+
+.ceo-card-1 img {
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.ceo-card-1 .ceo-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.ceo-card-1 .ceo-position {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ceo-card-2 {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.ceo-card-2 img {
+    width: 200px;
+    border-radius: 100% 100% 100% 100%;
+}
+
+.ceo-card-2 .ceo-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 22px;
+    font-weight: 600;
+    letter-spacing: -0.2px;
+}
+
+.ceo-card-2 .ceo-position {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.ceo {
+    padding: 75px;
+}
+
+.ceo-view {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.ceo-view span {
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    border-bottom: 2px solid blue;
+    padding: 10px;
+    cursor: pointer;
+    color: #0F110F;
+}
+
+span:hover {
+    cursor: pointer;
+    transition: all 215ms;
+    color: #6664e4
+}
+
+.hundred {
+    width: 100%;
+    height: 300px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.hundred-block {
+    display: inline-block;
+}
+
+.hundred-name {
+    text-align: center;
+    color: #0F110F;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px
+}
+
+.hundred-block .hundred-name {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.hundred-words {
+    text-align: center;
+    color: #666666;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+.hundred-block .hundred-words {
+    width: 600px;
+    margin-top: 30px;
+}
+
+.logo-campany-1 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.logo-campany-1 img {
+    width: 150px;
+    height: auto;
+}
+
+.logo-company-2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 100px;
+    padding-top: 50px;
+}
+
+.logo-company-2 img {
+    width: 150px;
+    height: auto;
+}
+
+.want-to-join {
+    width: 100%;
+    height: 350px;
+    background-color: #0F110F;
+    margin-top: 100px;
+}
+
+.want-to-join-words {
+    display: inline-block;
+    flex-basis: 50%;
+}
+
+.want-to-join-elements {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.want-to-join-words .want-to-join-words-elements-1 {
+    text-align: left;
+    color: #FFFFFF;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.1em;
+    letter-spacing: -0.3px;
+}
+
+.want-to-join-words .want-to-join-words-elements-2 {
+    text-align: left;
+    color: #8B8B8B;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.9em;
+}
+
+.background-icon {
+    background-color: #0F110F;
+    flex-basis: 20%;
+}
+
+.background-icon img {
+    width: 250px;
+    height: auto;
+}
+
+.button-a {
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #50AF9B;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 0px 20px 60px 0px rgb(255 166 84 / 0%);
+    padding: 15px 40px 15px 40px;
+
+}
+
+.button-a:hover {
+    background-color: #FFFFFF;
+    transition: all .45s
+}
+
+.button-a a:hover {
+    color: #0F110F;
+}
+
+.button-a a {
+    color: #FFFFFF;
+}
+
+.footer {
+    padding-top: 56px;
+}
+
+.footer .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 50px;
+    border-style: solid;
+    border-width: 0px 0px 1px 0px;
+    border-color: #25252521;
+    transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+
+.footer .footer-Selo {
+    padding: 0px 0px 32px;
+    width: 188px;
+}
+
+.footer-Selo h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-Selo p {
+    margin: 0px 0px 18px;
+    font: 36px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer .footer-email {
+    padding: 0px 0px 32px;
+}
+
+
+.footer-email h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-email p {
+    margin: 0px 0px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer .footer-number {
+    padding: 0px 0px 32px;
+    margin-right: 200px;
+}
+
+.footer-number h3 {
+    margin: 0px 0px 18px;
+    font-size: 36px;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-number p {
+    margin: 0px 0px 18px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 116px;
+}
+
+.footer-bottom .footer-Copyright {
+    font-family: 'Lexend Deca', sans-serif;
+    color: #a0a1a2;
+    margin-left: 30px;
+}
+
+.footer-bottom .footer-menu {
+    font-family: 'Lexend Deca', sans-serif;
+    display: flex;
+
+}
+
+.footer-bottom .footer-navbar-menu li {
+    position: relative;
+    right: 30px;
+    color: black;
+}
+
+.footer-menu li {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    line-height: 1.7rem;
+    font-size: 14px;
+
+}
+
+ul,
+li {
+    list-style: none;
+
+}
