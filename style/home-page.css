@@ -244,7 +244,7 @@ a {
 }
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-title {
   width: 100%;
-  color: #3B3B3BAB;
+  color: #3b3b3bab;
   font-family: "Inter", Sans-serif;
   font-size: 15px;
   font-weight: 500;
@@ -256,7 +256,7 @@ a {
   width: 100%;
 }
 .marquee-section {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   position: relative;
   --widgets-spacing: 20px;
@@ -387,7 +387,7 @@ a {
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-title {
   width: 100%;
   text-align: left;
-  color: #272C2E;
+  color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -397,7 +397,7 @@ a {
 }
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-subtitle {
   margin: 0px 0px 20px 0px;
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -450,7 +450,7 @@ a {
   position: relative;
   z-index: 500;
   font-size: 19px;
-  color: #50AF9B;
+  color: #50af9b;
 }
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-bullet ::before {
   content: "\f192";
@@ -461,13 +461,13 @@ a {
   font-weight: 600;
   line-height: 1em;
   letter-spacing: 0px;
-  color: #272C2E;
+  color: #272c2e;
 }
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  background-color: #262C2E;
+  background-color: #262c2e;
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
   padding: 15px 40px 15px 40px;
@@ -505,7 +505,7 @@ a {
 .text-ad-container .text-ad-display .text-ad-title {
   margin-bottom: 0px;
   text-align: center;
-  color: #272C2E;
+  color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -516,7 +516,7 @@ a {
 }
 .text-ad-container .text-ad-display .text-ad-subtitle {
   text-align: center;
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -539,7 +539,7 @@ a {
   display: flex;
 }
 .visibility-container .visibility-btn-container .visibility-btn-content {
-  background-color: #EE8735;
+  background-color: #ee8735;
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/rkvjr.png);
   background-position: 207px 182px;
   background-repeat: no-repeat;
@@ -562,7 +562,7 @@ a {
   margin-bottom: 0px;
   width: 100%;
   text-align: left;
-  color: #272C2E;
+  color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -578,7 +578,7 @@ a {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  background-color: #262C2E;
+  background-color: #262c2e;
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
   padding: 15px 40px 15px 40px;
@@ -610,7 +610,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
   align-content: flex-start;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-img {
   text-align: left;
@@ -647,7 +647,7 @@ a {
 }
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text .content {
   text-align: left;
-  color: #3B3B3BB8;
+  color: #3b3b3bb8;
   font-family: "Inter", Sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -684,7 +684,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
   align-content: flex-start;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-img {
   text-align: left;
@@ -721,7 +721,7 @@ a {
 }
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text .content {
   text-align: left;
-  color: #3B3B3BB8;
+  color: #3b3b3bb8;
   font-family: "Inter", Sans-serif;
   font-size: 16px;
   font-weight: 400;
@@ -729,7 +729,7 @@ a {
   width: 100%;
 }
 .third-section {
-  background-color: #262C2E;
+  background-color: #262c2e;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 100px 0px 0px 0px;
   position: relative;
@@ -782,7 +782,7 @@ a {
 }
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .title {
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -792,7 +792,7 @@ a {
   padding: 0px 0px 20px 0px;
 }
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .subtitle {
-  color: #FFFFFF99;
+  color: #ffffff99;
   font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -831,7 +831,7 @@ a {
 }
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number {
   margin-bottom: 0px;
-  color: #2CBCA5;
+  color: #2cbca5;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 64px;
   font-weight: 500;
@@ -839,7 +839,7 @@ a {
   width: 100%;
 }
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number-title {
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "DM Sans", Sans-serif;
   font-size: 18px;
   font-weight: 500;
@@ -920,7 +920,7 @@ a {
 }
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .title {
   text-align: left;
-  color: #FFFFFF;
+  color: #ffffff;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -931,7 +931,7 @@ a {
   padding: 0px 0px 20px 0px;
 }
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .subtitle {
-  color: #FFFFFF99;
+  color: #ffffff99;
   font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -951,9 +951,9 @@ a {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0px;
-  fill: #50AF9B;
-  color: #50AF9B;
-  background-color: #25262A00;
+  fill: #50af9b;
+  color: #50af9b;
+  background-color: #25262a00;
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
   padding: 0px 0px 0px 0px;
@@ -1032,7 +1032,7 @@ a {
 }
 .fourth-section .billing-container section .billing-section-container .details-container .detail-title {
   text-align: left;
-  color: #272C2E;
+  color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 46px;
   font-weight: 500;
@@ -1043,7 +1043,7 @@ a {
   padding: 0px 0px 20px 0px;
 }
 .fourth-section .billing-container section .billing-section-container .details-container .detail-subtitle {
-  color: #3B3B3B;
+  color: #3b3b3b;
   font-family: "Inter", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -1063,9 +1063,9 @@ a {
   font-size: 20px;
   font-weight: 600;
   letter-spacing: 0px;
-  fill: #50AF9B;
-  color: #50AF9B;
-  background-color: #25262A00;
+  fill: #50af9b;
+  color: #50af9b;
+  background-color: #25262a00;
   border-radius: 0px 0px 0px 0px;
   box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
   padding: 0px 0px 0px 0px;
@@ -1128,7 +1128,7 @@ a {
   display: flex;
 }
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   justify-content: center;
   box-shadow: 0px 0px 0px 0px rgba(132, 132, 132, 0);
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -1145,19 +1145,57 @@ a {
 }
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier {
   text-align: left;
-  color: #D351B0;
+  color: #d351b0;
   font-family: "Inter", Sans-serif;
   font-size: 12px;
   font-weight: 800;
   text-transform: uppercase;
   line-height: 1.2em;
   letter-spacing: 2px;
-  width: auto;
   max-width: 100%;
+  width: 100%;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier div {
   margin: 0px 0px 2px 0px;
   padding: 7px 20px 7px 20px;
-  background-color: #FFDAF5;
   border-radius: 2px 2px 2px 2px;
+  text-align: left;
+  color: #d351b0;
+  background-color: #ffdaf5;
+  font-family: "Inter", Sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier-pro {
+  text-align: left;
+  color: #50af9b;
+  font-family: "Inter", Sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  max-width: 100%;
+  width: 100%;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier-pro div {
+  margin: 0px 0px 2px 0px;
+  padding: 7px 20px 7px 20px;
+  background-color: #ffdaf5;
+  border-radius: 2px 2px 2px 2px;
+  text-align: left;
+  background-color: #50af9b36;
+  font-family: "Inter", Sans-serif;
+  font-size: 12px;
+  font-weight: 800;
+  text-transform: uppercase;
+  line-height: 1.2em;
+  letter-spacing: 2px;
+  text-align: center;
 }
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .price {
   text-align: center;
@@ -1165,10 +1203,27 @@ a {
   margin-bottom: 0;
   max-width: 100%;
   padding: 15px 0px 15px 0px;
-  color: #272C2E;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .price div {
+  color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 500;
+  letter-spacing: 0px;
+  padding: 10px;
+  margin: 0;
+  line-height: 1;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .month {
+  text-align: center;
+  width: auto;
+  max-width: 100%;
+  align-self: center;
+  margin-bottom: 0;
+  color: #4f4f4f94;
+  font-family: "Inter", Sans-serif;
+  font-size: 20px;
+  font-weight: 700;
   letter-spacing: 0px;
 }
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark {
@@ -1180,4 +1235,80 @@ a {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list {
+  display: flex;
+  align-items: center;
+  font-size: inherit;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  padding-bottom: calc(20px / 2);
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon {
+  display: flex;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon .icon {
+  color: #d351b0;
+  width: 1.25em;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon .icon-green {
+  color: #39C297;
+  width: 1.25em;
+  -webkit-font-smoothing: antialiased;
+  display: inline-block;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-text {
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+  letter-spacing: 0px;
+  color: #3b3b3b;
+  padding-left: 7px;
+  align-self: center;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-text-blur {
+  font-family: "Inter", Sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.3em;
+  color: #4f4f4f94;
+  padding-left: 7px;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn {
+  width: 100%;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn .get-started-btn {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #262c2e;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px;
+  width: 100%;
+  text-align: center;
+  margin: 10px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn .get-started-btn a > div {
+  font-family: "Lexend Deca", Sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #262c2e;
+  border-radius: 0px 0px 0px 0px;
+  box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+  padding: 15px 50px 15px 50px;
+  color: white;
 }
