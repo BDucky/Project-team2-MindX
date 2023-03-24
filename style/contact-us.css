@@ -1,79 +1,685 @@
-@font-face {
-  font-family: "Lexend Deca";
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/lexenddeca/v17/K2FifZFYk-dHSE0UPPuwQ7CrD94i-NCKm-U48M1ArA.ttf)
-    format("truetype");
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  max-width: 100vw;
+  min-width: 550px;
+  font-family: 'Lexend Deca', sans-serif;
 }
-* {
-  box-sizing: border-box;
+body a {
+  text-decoration: none;
+}
+body :root {
+  font-family: 'Lexend Deca', sans-serif;
+}
+body hr {
   margin: 0;
   padding: 0;
 }
-a {
-  text-decoration: none;
+body .header {
+  background-image: url(../assets/contact-us/kjgrn.png);
+  background-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: auto 920px;
+  width: 100%;
+  max-width: 100%;
 }
-:root {
-  font-family: "Lexend Deca", sans-serif;
+body .Container-HTML {
+  box-sizing: border-box;
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
 }
-.group-contact {
-  grid-area: left1;
+body .Container-HTML .Container-contact {
+  display: flex;
+  justify-content: center;
+  padding: 100px 0 100px 0;
+  background-image: url(../assets/contact-us/kjgrn.png);
+  background-position: center -300px;
+  background-repeat: no-repeat;
+  background-size: auto 920px;
+  width: 100%;
+  max-width: 100%;
 }
-.body-hero .image-star {
-  grid-area: right1;
-}
-.body-hero .image-star img {
+body .Container-HTML .Container-contact .body-contact {
   width: 570px;
-  height: 314px;
+  height: 315px;
+  padding: 10px 30px 10px 10px;
+  max-width: 100%;
+  opacity: 1 !important;
 }
-.body-hero {
-  display: grid;
-  grid-template-areas:
-    "left1 right1 right1 right1"
-    "left1 right1 right1 right1"
-    "left1 right1 right1 right1";
-  justify-content: space-between;
-  width: 1200px;
-  height: 395px;
-  grid-template-columns: 100px 200px auto;
-  grid-template-rows: 60px;
-  border: 10px;
-  margin: 0 auto;
-}
-.group-contact {
-  width: 560px;
-  height: 335px;
-  background-color: #ababe0;
-  margin: 0 30px 0 0;
-  padding: 10px;
-}
-.Contact {
-  margin: 0 0 10px 0;
-  width: 540px;
-  height: 22.4px;
-}
-.Get-our {
-  width: 540px;
-  height: 143.19px;
-  background-color: lightgreen;
-  padding: 0 0 20px;
+body .Container-HTML .Container-contact .body-contact .Contact {
   text-align: left;
-  color: #0f110f;
+  color: #2CBCA5;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  line-height: 1.4em;
+  letter-spacing: 1px;
+  margin: 0 0 10px 0;
+  max-width: 100%;
+}
+body .Container-HTML .Container-contact .body-contact .Contact-Get {
+  text-align: left;
+  color: #0F110F;
   font-size: 56px;
   font-weight: 600;
   line-height: 1.1em;
   letter-spacing: -0.3px;
-  margin: 0;
+  max-width: 100%;
+  padding: 0 0 20px 0;
 }
-.text-find {
-  background-color: aqua;
-  width: 540px;
-  height: 68.39px;
-  color: #666666;
+body .Container-HTML .Container-contact .body-contact .Contact-Text {
   text-align: left;
-  color: #0f110f;
+  color: #666666;
   font-size: 18px;
   font-weight: 400;
   line-height: 1.9em;
+  max-width: 100%;
+}
+body .Container-HTML .Container-contact .Image-star {
+  width: 450px;
+  height: 315px;
+  padding: 0 0 0 40px;
+}
+body .Container-HTML .Container-contact .Image-star img {
+  max-width: 100%;
+}
+body .Container-HTML .Container-let-get {
+  text-align: center;
+  width: 100%;
+  max-width: 100%;
+  padding: 60px 0 60px 0;
+  margin: auto;
+}
+body .Container-HTML .Container-let-get .let-get {
+  text-align: center;
+  color: #0F110F;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  max-width: 100%;
+  max-height: 100%;
+  width: 562px;
+  height: 93px;
+  margin: auto;
+}
+body .Container-HTML .Container-let-get .let-text {
+  text-align: center;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  max-width: 100%;
+  max-height: 100%;
+  margin: auto;
+  width: 562px;
+  height: 93px;
+  padding: 0 0 20px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ {
+  width: 100%;
+  max-width: 100%;
+  background-image: url(../assets/contact-us/efvij.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  width: 90%;
+  margin: auto;
+  padding: 0 60px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-title {
+  width: 70%;
+  max-width: 100%;
+  text-align: left;
+  color: #0F110F;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1em;
+  letter-spacing: -0.3px;
+  padding: 0 0 40px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-text {
+  width: 70%;
+  text-align: left;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  margin: auto;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send {
+  display: flex;
+  justify-content: space-between;
+  max-width: 100%;
+  margin: auto auto 50px auto;
+  padding: 70px 60px 0 60px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send {
+  margin: 10px auto;
+  width: 50%;
+  max-width: 100%;
+  overflow: hidden;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send img {
+  max-width: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 10px;
+  position: relative;
+  width: 100%;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us {
+  width: 50%;
+  max-width: 100%;
+  margin: 0 0 0 40px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  margin: 0 0 0 50px;
+  padding: 0 20px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us h2 {
+  color: #1a1a1a;
+  font-size: bold 10px;
+  max-width: 100%;
+  width: 100%;
+  font-weight: 600;
+  padding: 0 0 20px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-name1 {
+  display: block;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-name {
+  width: 90%;
+  height: 32px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+  margin: 0 0 25px 0;
+  max-width: 100%;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-email {
+  width: 90%;
+  max-width: 100%;
+  height: 32px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+  margin: 0 0 25px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-message {
+  width: 90%;
+  max-width: 100%;
+  height: 210px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .Submit {
+  color: #fff;
+  border-radius: 14px;
+  border: 1px #6664e4;
+  padding: 15px 60px;
+  margin: 10px 0 0 0;
+  transition: all 0.45s;
+  background: #6664e4;
+  box-shadow: none;
+  font-size: 18px;
+  cursor: pointer;
+  max-width: 100%;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .Submit:hover {
+  color: #f9f7f7;
+  background-color: #010101;
+  border-color: #6664e4;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 100px;
+  width: 90%;
+  max-width: 100%;
+  margin: auto;
+  padding: 20px 60px 40px 60px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin: auto;
+  padding: 0 20px 0 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ {
+  cursor: pointer;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ hr {
+  margin: 25px 0 25px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ span {
+  border-bottom-color: #496D5D1F;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  padding: 20px;
+  max-width: 100%;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ summary {
+  color: #2CBCA5;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.5em;
+  max-width: 100%;
+  padding: 20px;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right {
+  display: flex;
+  flex-direction: column;
+  width: 550px;
+  margin: auto;
+  padding: 0 20px 0 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ {
+  cursor: pointer;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ hr {
+  margin: 25px 0 25px 0;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ span {
+  border-bottom-color: #496D5D1F;
+  color: #666666;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.9em;
+  padding: 20px;
+  max-width: 100%;
+}
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ summary {
+  color: #2CBCA5;
+  font-size: 21px;
+  font-weight: 600;
+  line-height: 1.5em;
+  max-width: 100%;
+  padding: 20px;
+}
+body .Container-HTML .Container-Map iframe {
+  max-width: 100%;
+  max-height: 100%;
+  /* Filter đổi màu cho bản đồ */
+  filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
+}
+body .header .page-header-container {
+  background: transparent;
+  position: relative;
+  z-index: 0;
+  top: 0;
+  left: 0;
+  padding: 0.25rem 1.5rem;
+  height: 70px;
+}
+body .header .page-header-container .page-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 1400px;
+  border-bottom: 1px solid #0000000d;
+  padding-bottom: 8px;
+  height: 70px;
+}
+body .header .page-header-container .page-header-title a h5 {
+  font-weight: 600;
+  letter-spacing: -0.021em;
+  font-size: 28px;
+  padding: 0;
+  margin-left: 16px;
+  margin: 0;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  flex-grow: 1;
+  align-items: center;
+  flex-basis: auto;
+}
+body .header .page-header-container .page-header-subtitle-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  margin-left: 2rem;
+  padding-left: 1rem;
+  margin-bottom: 0;
+  list-style: none;
+}
+body .header .page-header-container .page-header-subtitle-list li {
+  margin-right: 5rem;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-home {
+  position: relative;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-home span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-home span:hover {
+  color: #6664e4;
+  transition: all 0.45s;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-about-us {
+  position: relative;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-about-us span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-about-us span:hover {
+  color: #6664e4;
+  transition: all 0.45s;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-our-team {
+  position: relative;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-our-team span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-our-team span:hover {
+  color: #6664e4;
+  transition: all 0.45s;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-contact-us {
+  position: relative;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-contact-us span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-contact-us span:hover {
+  color: #6664e4;
+  transition: all 0.45s;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-shop {
+  position: relative;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-shop span {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  border-radius: 8px;
+  letter-spacing: -0.011em;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #000000;
+}
+body .header .page-header-container .page-header-subtitle-list .page-header-shop span:hover {
+  color: #6664e4;
+  transition: all 0.45s;
+}
+body .header .page-header-container .page-header-subtitle .page-header-contact-btn {
+  margin-left: 20px;
+}
+body .header .page-header-container .page-header-subtitle .page-header-contact-btn a div {
+  border: 1px solid #21252980;
+  background: #212529;
+  color: #ffffff;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  white-space: nowrap;
+  line-height: 1;
+  padding: 9px 22px;
+  border-radius: 7px;
+  transition: color 450ms, background 450ms;
+}
+body .header .page-header-container .page-header-subtitle .page-header-contact-btn a div:hover {
+  border: 1px solid #21252980;
+  background: #ffffff;
+  color: #000000;
+  box-shadow: none;
+  font-size: 15px;
+  font-weight: 500;
+  letter-spacing: -0.009em;
+  white-space: nowrap;
+  line-height: 1;
+  padding: 9px 22px;
+  border-radius: 7px;
+  transition: color 450ms, background 450ms;
+}
+.header-sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  transition: all 0.3s ease-in-out;
+  opacity: 1;
+  transform: translateY(0);
+  background: #ffffff;
+  margin-top: 0;
+  padding: 0;
+}
+details {
+  transition: all 300ms ease-in-out;
+}
+details[open] summary ~ * {
+  animation: sweep 1s ease-in-out;
+}
+@keyframes sweep {
+  0% {
+    opacity: 0;
+    transform: translateX(0.9);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@media screen and (max-width: 992px) {
+  .Container-HTML .Container-contact .Image-star {
+    display: none;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    margin: auto auto 50px auto;
+    padding: 70px 60px 0 60px;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us {
+    margin: auto;
+    padding: 0 0 20px 20px;
+    width: 80%;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send {
+    width: 80%;
+    margin: auto;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 80%;
+    margin: auto;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-text {
+    max-width: 100%;
+    width: 80%;
+    padding: 0;
+    font-size: 15px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-title {
+    max-width: 100%;
+    margin: auto;
+    width: 100%;
+    font-size: 33px;
+    text-align: center;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 0 40px;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left {
+    text-align: center;
+    max-width: 100%;
+    width: 90%;
+    margin: auto;
+    padding: 0 40px;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right {
+    text-align: center;
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto 30px auto;
+    padding: 0 40px;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ details summary {
+    font-size: 15px;
+  }
+  body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ details summary {
+    font-size: 15px;
+  }
+}
+.footer {
+  padding: 56px 40px 10px 40px;
+}
+.footer .footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 50px;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #25252521;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+}
+.footer .footer-Selo {
+  padding: 0px 0px 32px;
+  width: 188px;
+}
+.footer-Selo h3 {
+  margin: 0px 0px 18px;
+  font-size: 36px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer-Selo p {
+  margin: 0px 0px 18px;
+  font: 36px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer .footer-email {
+  padding: 0px 0px 32px;
+}
+.footer-email h3 {
+  margin: 0px 0px 18px;
+  font-size: 36px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer-email p {
+  margin: 0px 0px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer .footer-number {
+  padding: 0px 0px 32px;
+  margin-right: 200px;
+}
+.footer-number h3 {
+  margin: 0px 0px 18px;
+  font-size: 36px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer-number p {
+  margin: 0px 0px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'Lexend Deca', sans-serif;
+}
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 116px;
+  margin: 0 0 10px 0;
+}
+.footer-bottom .footer-Copyright {
+  font-family: 'Lexend Deca', sans-serif;
+  color: #a0a1a2;
+  margin-left: 30px;
+}
+.footer-bottom .footer-Copyright p {
+  font-size: 13px;
+}
+.footer-bottom .footer-menu {
+  font-family: 'Lexend Deca', sans-serif;
+  display: flex;
+}
+.footer-bottom .footer-navbar-menu li {
+  position: relative;
+  right: 30px;
+  color: black;
+}
+.footer-bottom .footer-navbar-menu li a {
+  color: black;
+}
+.footer-bottom .footer-navbar-menu li a:hover {
+  color: #6664e4;
+}
+.footer-menu li {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  line-height: 1.7rem;
+  font-size: 14px;
+}
+li {
+  list-style: none;
 }
