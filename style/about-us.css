@@ -4,6 +4,262 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    max-width: 100%;
+}
+
+body {
+    margin: auto;
+    width: 100%;
+    position: relative;
+    font-family: "Lexend Deca", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: -0.011em;
+    text-align: left;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.home-page-top-section {
+    position: relative;
+    background: url("https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png") no-repeat center center;
+    background-size: cover;
+}
+
+.page-header-container {
+    background: transparent;
+    position: relative;
+    z-index: 0;
+    top: 0;
+    left: 0;
+    padding: 0.25rem 1.5rem;
+    height: 70px;
+}
+
+.header-sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    transition: all 0.3s ease-in-out;
+    opacity: 1;
+    transform: translateY(0);
+    background: #ffffff;
+    margin-top: 0;
+    padding: 0;
+}
+
+.page-header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    max-width: 1400px;
+    border-bottom: 1px solid #0000000d;
+    padding-bottom: 8px;
+    height: 70px;
+}
+
+.page-header-title a h5 {
+    font-weight: 600;
+    letter-spacing: -0.021em;
+    font-size: 28px;
+    padding: 0;
+    margin-left: 16px;
+    margin: 0;
+}
+
+.page-header-subtitle {
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: auto;
+}
+
+.page-header-subtitle-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: 2rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.page-header-subtitle-list li {
+    margin-right: 5rem;
+}
+
+.page-header-subtitle-list .page-header-home {
+    position: relative;
+}
+
+.page-header-subtitle-list .page-header-home a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    letter-spacing: -0.011em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.page-header-subtitle-list .page-header-about-us {
+    position: relative;
+}
+
+.page-header-subtitle-list .page-header-about-us a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    letter-spacing: -0.011em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.page-header-subtitle-list .page-header-our-team {
+    position: relative;
+}
+
+.page-header-subtitle-list .page-header-our-team a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    letter-spacing: -0.011em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.page-header-subtitle-list .page-header-contact-us {
+    position: relative;
+}
+
+.page-header-subtitle-list .page-header-contact-us a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    letter-spacing: -0.011em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.page-header-subtitle-list .page-header-shop {
+    position: relative;
+}
+
+.page-header-subtitle-list .page-header-shop a {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 8px;
+    letter-spacing: -0.011em;
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+
+.page-header-subtitle .page-header-contact-btn {
+    margin-left: 20px;
+}
+
+.page-header-subtitle .page-header-contact-btn a div {
+    border: 1px solid #21252980;
+    background: #212529;
+    color: #ffffff;
+    box-shadow: none;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: -0.009em;
+    white-space: nowrap;
+    line-height: 1;
+    padding: 9px 22px;
+    border-radius: 7px;
+    transition: color 450ms, background 450ms;
+}
+
+.home-page-get-started-wrapper {
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+    max-width: 1200px;
+    align-items: center;
+    --widgets-spacing: 20px;
+    box-sizing: border-box;
+}
+
+.home-page-get-started-wrapper .content-wrapper {
+    width: 100%;
+    position: relative;
+    min-height: 1px;
+    display: flex;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content {
+    flex-basis: 50%;
+    position: relative;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-title {
+    color: #272c2e;
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 72px;
+    font-weight: 500;
+    line-height: 1.1em;
+    letter-spacing: -0.5px;
+    background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/wrhf.png);
+    background-position: 0px 96%;
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+    margin-bottom: 20px;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-description {
+    color: #3b3b3b;
+    font-family: "Inter", Sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.8em;
+    letter-spacing: 0px;
+    margin-bottom: 20px;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn {
+    font-family: "Lexend Deca", Sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #262c2e;
+    border-radius: 0px 0px 0px 0px;
+    box-shadow: 0px 20px 60px 0px rgba(255, 166, 84, 0);
+    padding: 15px;
+    width: 30%;
+    text-align: center;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn a>div {
+    color: white;
+}
+
+.home-page-get-started-wrapper .content-wrapper .get-started-img {
+    flex-basis: 50%;
 }
 
 .reveal {
@@ -18,8 +274,8 @@
     transition: all 2s ease;
 }
 
-.head {
-    height: 600px;
+.head-both {
+    height: 480x;
     width: 100%;
     border-style: solid;
     border-width: 0px 0px 1px 0px;
@@ -30,6 +286,7 @@
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 .font-head {
@@ -42,7 +299,6 @@
 }
 
 .font-head .middle-title {
-    text-align: left;
     color: #0F110F;
     font-family: "Lexend Deca", Sans-serif;
     font-size: 24px;
@@ -145,7 +401,7 @@ a:hover {
     font-weight: 400;
     line-height: 1.9em;
     padding-bottom: 0px;
-    width: 500px;
+    max-width: 80%;
 }
 
 .body-head-font-2 a {
@@ -207,7 +463,8 @@ a:hover {
     font-weight: 600;
     line-height: 1.1em;
     letter-spacing: -0.3px;
-    width: 500px;
+    /* width: 500px; */
+    max-width: 100%;
     padding-bottom: 10px;
 }
 
@@ -315,7 +572,8 @@ a:hover {
     background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/efvij.png);
     background-position: bottom center;
     background-size: cover;
-    height: 780px;
+    max-height: 100%;
+    height: 800px;
 }
 
 .value-about-us {
@@ -489,7 +747,7 @@ a:hover {
 }
 
 .card-1 img {
-    max-width: 100%;
+    max-width: 100%
 }
 
 .card-2 img {
@@ -884,4 +1142,334 @@ ul,
 li {
     list-style: none;
 
+}
+
+/* REPONSIVE ZONE */
+/* moblie */
+@media only screen and (max-width: 46.1875em) {
+    .head {
+        flex-direction: column;
+    }
+
+    .body-head .body-head-font {
+        padding-top: 50px;
+    }
+
+    .head .head-title {
+        font-size: 14px;
+    }
+
+    .font-head .middle-title {
+        font-size: 20px;
+        width: 300px;
+        position: relative;
+        left: 160px;
+    }
+
+    .title-info {
+        position: relative;
+        left: 20px;
+        font-size: 16px;
+    }
+
+    .font-head {
+        text-align: center;
+    }
+
+    .font-head-imgs {
+        display: none;
+    }
+
+    .body-head {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .body .first-body {
+        text-align: center;
+        font-size: 32px;
+        width: 300px;
+        position: relative;
+        left: 160px;
+    }
+
+    .body-head-number {
+        flex-direction: column;
+        padding-bottom: 350PX;
+    }
+
+    .body-head .first-body-imgs img {
+        display: none;
+    }
+
+    .second-body {
+        font-size: 16px;
+        text-align: center;
+        width: 600px;
+        position: relative;
+        left: 159px;
+        bottom: 100px;
+    }
+
+    .body-head-font-2 .body-head-buttons {
+        position: relative;
+        top: -75px;
+        left: -45px;
+    }
+
+    .body-head .second-body-imgs img {
+        max-width: 100%;
+        position: relative;
+        top: -38px;
+        right: 32px;
+    }
+
+    .body-head-first-number {
+        position: relative;
+        left: 200px;
+        top: 75px
+    }
+
+    .body-head-second-number {
+        position: relative;
+        left: 200px;
+        top: 122px
+    }
+
+    .body-head-third-number {
+        position: relative;
+        left: 200px;
+        top: 164px;
+
+    }
+
+    .body-head-first-number .body-head-first-number-1 {
+        font-size: 40px;
+    }
+
+    .body-head-first-number .body-head-first-word {
+        font-size: 40px;
+    }
+
+    .body-head-second-number .body-head-second-number-2 {
+        font-size: 40px;
+        position: relative;
+        left: 33px;
+    }
+
+    .body-head-second-number .body-head-second-word {
+        font-size: 40px;
+        position: relative;
+        left: 33px;
+    }
+
+    .body-head-third-number .body-head-third-number-3 {
+        font-size: 40px;
+    }
+
+    .value-about-us .value-about-us-elment {
+        text-align: center;
+        font-size: 32px;
+        letter-spacing: 0px;
+        width: 300px;
+        position: relative;
+        bottom: 65px;
+        left: 136px;
+    }
+
+    .value-about-us .value-about-us-elment-detail {
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        bottom: 86px;
+        left: 17px;
+    }
+
+    .value-about-us-icon {
+        flex-direction: column;
+        padding-top: 350px;
+        gap: 10px
+    }
+
+    .card-show {
+        padding-top: 450px;
+        flex-direction: column;
+    }
+
+    .value-about-us-icon .value-about-us-icon-2 {
+        position: relative;
+        left: 80px;
+        top: -28px;
+    }
+
+    .value-about-us-icon .value-about-us-icon-3 {
+        position: relative;
+        left: 80px;
+        top: -52px;
+    }
+
+    .team {
+        margin-top: 2600px;
+    }
+
+    .value-all {
+        background-image: none;
+    }
+
+    .ceo-card-1 {
+        flex-direction: column;
+        gap: 41px;
+    }
+
+    .ceo-card-2 {
+        flex-direction: column;
+        gap: 41px;
+    }
+
+    .team-introduce-title {
+        text-align: center;
+        font-size: 32px;
+        position: relative;
+        top: 28px;
+        right: 10px;
+    }
+
+    .team-introduce-info {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .ceo-icon-1 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-icon-2 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-icon-3 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-icon-4 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-icon-5 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-icon-6 {
+        position: relative;
+        left: 120px;
+    }
+
+    .ceo-view {
+        padding: 10px;
+        position: relative;
+        top: 30px;
+    }
+
+    .hundred-block .hundred-name {
+        font-size: 32px;
+        text-align: center;
+        width: 300px;
+        position: relative;
+        left: 157px;
+    }
+
+    .hundred-block .hundred-words {
+        text-align: center;
+        font-size: 16px;
+    }
+
+    .logo-campany-1 {
+        flex-direction: column;
+        position: relative;
+        left: 120px;
+        gap: 35px;
+        top: 59px;
+    }
+
+    .logo-company-2 {
+        flex-direction: column;
+        position: relative;
+        left: 400px;
+        bottom: 49px;
+        gap: 36px;
+    }
+
+    .want-to-join-words .want-to-join-words-elements-1 {
+        text-align: center;
+        font-size: 36px;
+        letter-spacing: 0px;
+        position: relative;
+        top: 30px;
+    }
+
+    .want-to-join-words .want-to-join-words-elements-2 {
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+        width: 550px;
+    }
+
+    .want-to-join-elements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-icon img {
+        width: 100px;
+        position: relative;
+        right: 224px;
+        top: 74px;
+    }
+
+    .button-a {
+        position: relative;
+        bottom: 70px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer .footer-Selo {
+        position: relative;
+        right: 220px;
+    }
+
+    .footer .footer-email {
+        position: relative;
+        right: 146px;
+    }
+
+    .footer .footer-number {
+        position: relative;
+        right: 91px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        height: 80px;
+    }
+
+    .footer-menu ul,
+    li {
+        position: relative;
+        top: 20px;
+        left: 10px;
+
+    }
+
+    .footer-bottom .footer-Copyright {
+        font-size: 15px;
+    }
 }
