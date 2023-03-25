@@ -23,7 +23,7 @@ body {
     }
 
     .header {
-        background-image: url(../assets/contact-us/kjgrn.png);
+        background-image: url(/Images/kjgrn.png);
         background-position: center -300px;
         background-repeat: no-repeat;
         background-size: auto 920px;
@@ -41,7 +41,7 @@ body {
             display: flex;
             justify-content: center;
             padding: 100px 0 100px 0;
-            background-image: url(../assets/contact-us/kjgrn.png);
+            background-image: url(/Images/kjgrn.png);
             background-position: center -300px;
             background-repeat: no-repeat;
             background-size: auto 920px;
@@ -140,7 +140,7 @@ body {
         .Container-Group-Send-How-FAQ {
             width: 100%;
             max-width: 100%;
-            background-image: url(../assets/contact-us/efvij.png);
+            background-image: url(/Images/efvij.png);
             background-position: center center;
             background-repeat: no-repeat;
             background-size: cover;
@@ -390,190 +390,113 @@ body {
             left: 0;
             padding: 0.25rem 1.5rem;
             height: 70px;
+        }
 
-            .page-header {
+        .header-sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 10;
+            transition: all 0.3s ease-in-out;
+            opacity: 1;
+            transform: translateY(0);
+            background: rgba(255, 255, 255, 1);
+            margin-top: 0;
+            padding: 0;
+        }
+
+        .page-header {
+            display: flex;
+            flex-flow: row nowrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+            max-width: 1400px;
+            border-bottom: 1px solid #0000000d;
+            padding-bottom: 8px;
+            height: 70px;
+
+            &-title {
+                a h5 {
+                    font-weight: 600;
+                    letter-spacing: -0.021em;
+                    font-size: 28px;
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 16px;
+                    margin: 0;
+                    color: #000;
+                }
+            }
+
+            &-subtitle {
                 display: flex;
-                flex-flow: row nowrap;
-                justify-content: space-between;
-                align-items: center;
-                margin-left: auto;
-                margin-right: auto;
                 width: 100%;
-                max-width: 1400px;
-                border-bottom: 1px solid #0000000d;
-                padding-bottom: 8px;
-                height: 70px;
+                justify-content: flex-end;
+                flex-grow: 1;
+                align-items: center;
+                flex-basis: auto;
 
-                &-title {
-                    a h5 {
-                        font-weight: 600;
-                        letter-spacing: -0.021em;
-                        font-size: 28px;
-                        margin: 0;
-                        padding: 0;
-                        margin-left: 16px;
-                        margin: 0;
-                        color: #000000;
+                &-list {
+                    display: flex;
+                    margin: 0;
+                    padding: 0;
+                    margin-left: 2rem;
+                    padding-left: 1rem;
+                    margin-bottom: 0;
+                    list-style: none;
+
+                    li {
+                        margin-right: 2rem;
+                    }
+
+                    .page-header-home {
+                        position: relative;
+
+                        a>span {
+                            font-weight: 600;
+                            font-size: 16px;
+                            transition: all 0.45s;
+                            border-radius: 8px;
+                            letter-spacing: -0.011em;
+                            color: #000000;
+                            display: inline-block;
+                            padding: 5px 15px;
+                            line-height: 2.5;
+                            color: #000000;
+
+                            &:hover {
+                                color: #6664e4;
+                                background-color: #c5c5c52f;
+                                border: 15px 20px;
+                            }
+                        }
                     }
                 }
 
-                &-subtitle {
-                    display: flex;
-                    width: 100%;
-                    justify-content: flex-end;
-                    flex-grow: 1;
-                    align-items: center;
-                    flex-basis: auto;
+                .page-header-contact-btn {
+                    margin-left: 20px;
 
-                    &-list {
-                        display: flex;
-                        margin: 0;
-                        padding: 0;
-                        margin-left: 2rem;
-                        padding-left: 1rem;
-                        margin-bottom: 0;
-                        list-style: none;
+                    a>div {
+                        border: 1px solid #21252980;
+                        background: #212529;
+                        color: #ffffff;
+                        box-shadow: none;
+                        font-size: 15px;
+                        font-weight: 500;
+                        letter-spacing: -0.009em;
+                        white-space: nowrap;
+                        line-height: 1;
+                        padding: 9px 22px;
+                        border-radius: 7px;
+                        transition: color 450ms, background 450ms;
 
-                        li {
-                            margin-right: 5rem;
-                        }
-
-                        .page-header-home {
-                            position: relative;
-
-                            span {
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 19px;
-                                border-radius: 8px;
-                                letter-spacing: -0.011em;
-                                padding-top: 16px;
-                                padding-bottom: 16px;
-                                color: #000000;
-                            }
-
-                            span:hover {
-                                color: #6664e4;
-                                transition: all .45s;
-                            }
-                        }
-
-                        .page-header-about-us {
-                            position: relative;
-
-                            span {
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 19px;
-                                border-radius: 8px;
-                                letter-spacing: -0.011em;
-                                padding-top: 16px;
-                                padding-bottom: 16px;
-                                color: #000000;
-
-                            }
-
-                            span:hover {
-                                color: #6664e4;
-                                transition: all .45s;
-                            }
-                        }
-
-                        .page-header-our-team {
-                            position: relative;
-
-                            span {
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 19px;
-                                border-radius: 8px;
-                                letter-spacing: -0.011em;
-                                padding-top: 16px;
-                                padding-bottom: 16px;
-                                color: #000000;
-
-                            }
-
-                            span:hover {
-                                color: #6664e4;
-                                transition: all .45s;
-                            }
-                        }
-
-                        .page-header-contact-us {
-                            position: relative;
-
-                            span {
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 19px;
-                                border-radius: 8px;
-                                letter-spacing: -0.011em;
-                                padding-top: 16px;
-                                padding-bottom: 16px;
-                                color: #000000;
-
-                            }
-
-                            span:hover {
-                                color: #6664e4;
-                                transition: all .45s;
-                            }
-                        }
-
-                        .page-header-shop {
-                            position: relative;
-
-                            span {
-                                font-weight: 500;
-                                font-size: 16px;
-                                line-height: 19px;
-                                border-radius: 8px;
-                                letter-spacing: -0.011em;
-                                padding-top: 16px;
-                                padding-bottom: 16px;
-                                color: #000000;
-
-                            }
-
-                            span:hover {
-                                color: #6664e4;
-                                transition: all .45s;
-                            }
-                        }
-                    }
-
-                    .page-header-contact-btn {
-                        margin-left: 20px;
-
-                        a div {
-                            border: 1px solid #21252980;
-                            background: #212529;
-                            color: #ffffff;
-                            box-shadow: none;
-                            font-size: 15px;
-                            font-weight: 500;
-                            letter-spacing: -0.009em;
-                            white-space: nowrap;
-                            line-height: 1;
-                            padding: 9px 22px;
-                            border-radius: 7px;
-                            transition: color 450ms, background 450ms;
-                        }
-
-                        a div:hover {
-                            border: 1px solid #21252980;
+                        &:hover {
                             background: #ffffff;
                             color: #000000;
-                            box-shadow: none;
-                            font-size: 15px;
-                            font-weight: 500;
-                            letter-spacing: -0.009em;
-                            white-space: nowrap;
-                            line-height: 1;
-                            padding: 9px 22px;
-                            border-radius: 7px;
-                            transition: color 450ms, background 450ms;
                         }
                     }
                 }

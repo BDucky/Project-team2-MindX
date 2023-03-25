@@ -28,8 +28,7 @@ a {
 
 .home-page-top-section {
   position: relative;
-  background: url("https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png")
-    no-repeat center center;
+  background: url("https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png") no-repeat center center;
   background-size: cover;
 }
 
@@ -42,6 +41,7 @@ a {
   padding: 0.25rem 1.5rem;
   height: 70px;
 }
+
 .header-sticky {
   position: fixed;
   top: 0;
@@ -55,6 +55,7 @@ a {
   margin-top: 0;
   padding: 0;
 }
+
 .page-header {
   display: flex;
   flex-flow: row nowrap;
@@ -68,6 +69,7 @@ a {
   padding-bottom: 8px;
   height: 70px;
 }
+
 .page-header-title a h5 {
   font-weight: 600;
   letter-spacing: -0.021em;
@@ -76,6 +78,7 @@ a {
   margin-left: 16px;
   margin: 0;
 }
+
 .page-header-subtitle {
   display: flex;
   width: 100%;
@@ -84,6 +87,7 @@ a {
   align-items: center;
   flex-basis: auto;
 }
+
 .page-header-subtitle-list {
   display: flex;
   margin: 0;
@@ -93,13 +97,16 @@ a {
   margin-bottom: 0;
   list-style: none;
 }
+
 .page-header-subtitle-list li {
   margin-right: 2rem;
 }
+
 .page-header-subtitle-list .page-header-home {
   position: relative;
 }
-.page-header-subtitle-list .page-header-home a > span {
+
+.page-header-subtitle-list .page-header-home a>span {
   font-weight: 500;
   font-size: 16px;
   transition: all 0.45s;
@@ -110,15 +117,18 @@ a {
   line-height: 2.5;
   color: #000000;
 }
-.page-header-subtitle-list .page-header-home a > span:hover {
+
+.page-header-subtitle-list .page-header-home a>span:hover {
   color: #6664e4;
   background-color: #c5c5c52f;
   border: 15px 20px;
 }
+
 .page-header-subtitle .page-header-contact-btn {
   margin-left: 20px;
 }
-.page-header-subtitle .page-header-contact-btn a > div {
+
+.page-header-subtitle .page-header-contact-btn a>div {
   border: 1px solid #21252980;
   background: #212529;
   color: #ffffff;
@@ -132,9 +142,148 @@ a {
   border-radius: 7px;
   transition: color 450ms, background 450ms;
 }
-.page-header-subtitle .page-header-contact-btn a > div:hover {
+
+.page-header-subtitle .page-header-contact-btn a>div:hover {
   background: #ffffff;
   color: #000000;
+}
+
+@media screen and (max-width: 1199px) {
+  .page-header-container.open {
+    z-index: 1;
+    padding: 0;
+  }
+
+  .page-header-container .page-header.open {
+    background: #ffffff;
+    backdrop-filter: saturate(180%) blur(20px);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+    z-index: 999;
+    padding: 1rem;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .page-header-container .page-header .header-wrap {
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 9;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn {
+    height: 2.5625rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    outline: none;
+    overflow: visible;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header {
+    font-size: 1.25rem;
+    line-height: 1;
+    width: 26px;
+    height: 12px;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    animation: ease-in-out 0.5s;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transition: all 0.1806s linear;
+    background: black;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(1) {
+    top: 0;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(2) {
+    top: 10px;
+    width: 50%;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(1) {
+    top: 3px;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(2) {
+    top: 7px;
+    width: 100%;
+  }
+
+  .page-header-container .page-header .header-wrap .page-header-title {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 5.125rem;
+    margin-left: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-header-container .page-header .page-header-subtitle {
+    display: none;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open {
+    display: grid;
+    justify-content: unset !important;
+    transition: background 0.44s 0.2s cubic-bezier(0.52, 0.16, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list {
+    padding-bottom: 498px;
+    flex-direction: column;
+    padding-top: 6px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home {
+    margin-right: 0;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home:hover {
+    color: #6664e4;
+    background-color: #c5c5c52f;
+    border: 15px 20px;
+    cursor: pointer;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-contact-btn {
+    margin: 16px auto auto;
+  }
 }
 
 .reveal {
@@ -156,11 +305,12 @@ a {
   border-width: 0px 0px 1px 0px;
   border-color: #25252521;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  background-color: #ffffff;
+  background-color: #FFFFFF;
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/kjgrn.png);
   background-position: top center;
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 
 .font-head {
@@ -168,21 +318,22 @@ a {
   margin: 100px;
   margin-right: 320px;
   left: 80px;
-  width: 600px;
+  width: 50%;
   padding-top: 20px;
 }
 
 .font-head .middle-title {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 24px;
   font-weight: 700;
   line-height: 2.1em;
   letter-spacing: -0.3px;
+
 }
 
 .font-head-imgs {
-  width: 500px;
+  width: 50%;
 }
 
 .font-head-imgs img {
@@ -212,25 +363,29 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+
 }
 
 .head .head-title {
-  color: #2cbca5;
+  color: #2CBCA5;
   font-size: 16px;
   font-weight: 600;
   text-transform: uppercase;
   line-height: 1.4em;
   letter-spacing: 1px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   position: relative;
   bottom: 10px;
 }
 
+
 .body-head-buttons {
   letter-spacing: -0.3px;
   font-weight: 600;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
+
 
 .title-info {
   color: #666666;
@@ -242,42 +397,23 @@ a:hover {
   top: 22px;
 }
 
-.body-section {
-  background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/efvij.png);
-  background-position: bottom center;
-  background-size: cover;
-}
-
 .body-head {
-  max-width: 1200px;
-  display: flex;
-  margin-right: auto;
-  margin-left: auto;
-  position: relative;
-}
-
-.body-head .body-head-container {
-  position: relative;
   min-height: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
-  border-style: solid;
-  border-width: 1px 0px 0px 0px;
-  border-color: #25252521;
-  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
-  padding: 40px 10px 0px 10px;
 }
 
-.body-head .body-head-container .body-head-section {
+.body-head .body-head-font {
   padding: 100px;
-  width: 1000px;
-  position: relative;
-  left: 72px;
+  width: 70%;
+  padding-left: 175px;
 }
 
 .body-head .body-head-font-2 {
-  width: 1000px;
+  width: 70%;
   position: relative;
-  left: 29px;
   bottom: -7px;
 }
 
@@ -296,8 +432,8 @@ a:hover {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 700;
-  fill: #0f110f;
-  color: #0f110f;
+  fill: #0F110F;
+  color: #0F110F
 }
 
 .body-head-buttons a {
@@ -308,6 +444,7 @@ a:hover {
 .body-head-font-2 .body-head-buttons {
   position: relative;
   top: 10px;
+
 }
 
 .body-head-font-2 a:hover {
@@ -315,13 +452,14 @@ a:hover {
   color: #6664e4;
 }
 
+
 .body-head .first-body-imgs img {
   max-width: 100%;
   height: auto;
   vertical-align: middle;
   border-style: none;
   border-radius: 10px 10px 10px 10px;
-  width: 1024px;
+  width: 100%;
   height: 480px;
   padding-top: 35px;
 }
@@ -332,15 +470,18 @@ a:hover {
   vertical-align: middle;
   border-style: none;
   border-radius: 10px 10px 10px 10px;
-  width: 500px;
+  width: 70%;
   height: 450px;
   position: relative;
   top: 52px;
+
 }
+
+
 
 .body .first-body {
   text-align: left;
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -363,11 +504,11 @@ a:hover {
   justify-content: space-around;
   height: 200px;
   position: relative;
-  left: 30px;
+  width: 100%;
 }
 
 .body-head-first-number .body-head-first-number-1 {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -376,13 +517,8 @@ a:hover {
   left: 34px;
 }
 
-.body-head-first-number {
-  position: relative;
-  left: 80px;
-}
-
 .body-head-first-number .body-head-first-word {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -402,7 +538,7 @@ a:hover {
 }
 
 .body-head-second-number .body-head-second-number-2 {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -412,7 +548,7 @@ a:hover {
 }
 
 .body-head-second-number .body-head-second-word {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -432,7 +568,7 @@ a:hover {
 }
 
 .body-head-third-number .body-head-third-number-3 {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -467,7 +603,7 @@ a:hover {
 }
 
 .value-about-us .value-about-us-elment {
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 48px;
   font-weight: 600;
@@ -537,7 +673,7 @@ a:hover {
   text-align: center;
   width: 350px;
   height: 265px;
-  background-color: whitesmoke;
+  background-color: whitesmoke
 }
 
 .value-about-us-icon-1 .img-icon-trs img {
@@ -545,7 +681,7 @@ a:hover {
 }
 
 .trans {
-  color: #1a1a1a;
+  color: #1A1A1A;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -556,18 +692,18 @@ a:hover {
 
 .value-about-us-trans p {
   margin: 0px 0px 0px 0px;
-  color: #666666c7;
+  color: #666666C7;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 16px;
   font-weight: 300;
-  line-height: 1.6em;
+  line-height: 1.6em
 }
 
 .value-about-us-icon-2 {
   text-align: center;
   width: 350px;
   height: 265px;
-  background-color: whitesmoke;
+  background-color: whitesmoke
 }
 
 .value-about-us-icon-2 .img-icon-ex img {
@@ -575,7 +711,7 @@ a:hover {
 }
 
 .exp {
-  color: #1a1a1a;
+  color: #1A1A1A;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -586,7 +722,7 @@ a:hover {
 
 .value-about-us-ex p {
   margin: 0px 0px 0px 0px;
-  color: #666666c7;
+  color: #666666C7;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -597,7 +733,7 @@ a:hover {
   text-align: center;
   width: 350px;
   height: 265px;
-  background-color: whitesmoke;
+  background-color: whitesmoke
 }
 
 .value-about-us-icon-3 .img-icon-resu img {
@@ -605,7 +741,7 @@ a:hover {
 }
 
 .resu {
-  color: #1a1a1a;
+  color: #1A1A1A;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 20px;
   font-weight: 600;
@@ -616,7 +752,7 @@ a:hover {
 
 .value-about-us-resu p {
   margin: 0px 0px 0px 0px;
-  color: #666666c7;
+  color: #666666C7;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -626,23 +762,25 @@ a:hover {
 .card-show {
   display: flex;
   width: 100%;
-  height: 400px;
 }
 
 .card-1 img {
-  max-width: 100%;
+  max-width: 100%
 }
 
 .card-2 img {
   max-width: 100%;
+
 }
 
 .card-3 img {
   max-width: 100%;
+
 }
 
 .card-4 img {
   max-width: 100%;
+
 }
 
 .team {
@@ -659,17 +797,17 @@ a:hover {
   width: 100%;
   height: 200px;
   display: grid;
-  justify-content: center;
+  justify-content: center
 }
 
 .team-introduce-title {
   text-align: center;
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.1em;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.3px
 }
 
 .team .team-introduce-title {
@@ -682,12 +820,14 @@ a:hover {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 400;
-  line-height: 1.9em;
+  line-height: 1.9em
 }
 
 .team-introduce .team-introduce-info {
   width: 600px;
 }
+
+
 
 .ceo-card-1 {
   max-width: 100%;
@@ -704,7 +844,7 @@ a:hover {
 
 .ceo-card-1 .ceo-name {
   text-align: center;
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 22px;
   font-weight: 600;
@@ -734,7 +874,7 @@ a:hover {
 
 .ceo-card-2 .ceo-name {
   text-align: center;
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 22px;
   font-weight: 600;
@@ -765,13 +905,13 @@ a:hover {
   border-bottom: 2px solid blue;
   padding: 10px;
   cursor: pointer;
-  color: #0f110f;
+  color: #0F110F;
 }
 
 span:hover {
   cursor: pointer;
   transition: all 215ms;
-  color: #6664e4;
+  color: #6664e4
 }
 
 .hundred {
@@ -788,12 +928,12 @@ span:hover {
 
 .hundred-name {
   text-align: center;
-  color: #0f110f;
+  color: #0F110F;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 48px;
   font-weight: 600;
   line-height: 1.1em;
-  letter-spacing: -0.3px;
+  letter-spacing: -0.3px
 }
 
 .hundred-block .hundred-name {
@@ -844,7 +984,7 @@ span:hover {
 .want-to-join {
   width: 100%;
   height: 350px;
-  background-color: #0f110f;
+  background-color: #0F110F;
   margin-top: 100px;
 }
 
@@ -862,7 +1002,7 @@ span:hover {
 
 .want-to-join-words .want-to-join-words-elements-1 {
   text-align: left;
-  color: #ffffff;
+  color: #FFFFFF;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 56px;
   font-weight: 600;
@@ -872,7 +1012,7 @@ span:hover {
 
 .want-to-join-words .want-to-join-words-elements-2 {
   text-align: left;
-  color: #8b8b8b;
+  color: #8B8B8B;
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 400;
@@ -880,7 +1020,7 @@ span:hover {
 }
 
 .background-icon {
-  background-color: #0f110f;
+  background-color: #0F110F;
   flex-basis: 20%;
 }
 
@@ -893,23 +1033,24 @@ span:hover {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 600;
-  background-color: #50af9b;
+  background-color: #50AF9B;
   border-radius: 10px 10px 10px 10px;
   box-shadow: 0px 20px 60px 0px rgb(255 166 84 / 0%);
   padding: 15px 40px 15px 40px;
+
 }
 
 .button-a:hover {
-  background-color: #ffffff;
-  transition: all 0.45s;
+  background-color: #FFFFFF;
+  transition: all .45s
 }
 
 .button-a a:hover {
-  color: #0f110f;
+  color: #0F110F;
 }
 
 .button-a a {
-  color: #ffffff;
+  color: #FFFFFF;
 }
 
 .footer {
@@ -935,7 +1076,7 @@ span:hover {
 .footer-Selo h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer-Selo p {
@@ -943,24 +1084,25 @@ span:hover {
   font: 36px;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer .footer-email {
   padding: 0px 0px 32px;
 }
 
+
 .footer-email h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer-email p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer .footer-number {
@@ -971,14 +1113,14 @@ span:hover {
 .footer-number h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer-number p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
 }
 
 .footer-bottom {
@@ -989,14 +1131,15 @@ span:hover {
 }
 
 .footer-bottom .footer-Copyright {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   color: #a0a1a2;
   margin-left: 30px;
 }
 
 .footer-bottom .footer-menu {
-  font-family: "Lexend Deca", sans-serif;
+  font-family: 'Lexend Deca', sans-serif;
   display: flex;
+
 }
 
 .footer-bottom .footer-navbar-menu li {
@@ -1010,16 +1153,19 @@ span:hover {
   padding-right: 0.75rem;
   line-height: 1.7rem;
   font-size: 14px;
+
 }
 
 ul,
 li {
   list-style: none;
+
 }
 
 /* REPONSIVE ZONE */
 /* moblie */
 @media only screen and (max-width: 46.1875em) {
+
   .head {
     flex-direction: column;
   }
@@ -1036,7 +1182,7 @@ li {
     font-size: 20px;
     width: 300px;
     position: relative;
-    left: 160px;
+    left: 35px;
   }
 
   .title-info {
@@ -1061,14 +1207,14 @@ li {
   .body .first-body {
     text-align: center;
     font-size: 32px;
-    width: 300px;
+    max-width: 100%;
     position: relative;
-    left: 14px;
+    left: -43px;
   }
 
   .body-head-number {
     flex-direction: column;
-    padding-bottom: 350px;
+    padding-bottom: 350PX;
   }
 
   .body-head .first-body-imgs img {
@@ -1078,42 +1224,40 @@ li {
   .second-body {
     font-size: 16px;
     text-align: center;
-    width: 600px;
+    max-width: 1000px;
     position: relative;
-    left: 32px;
+    left: -8px;
     bottom: 100px;
   }
 
   .body-head-font-2 .body-head-buttons {
     position: relative;
     top: -75px;
-    left: -45px;
+    left: -10px;
   }
 
   .body-head .second-body-imgs img {
     max-width: 100%;
     position: relative;
     top: -38px;
-    right: 32px;
+    right: 4px;
+    width: 10000px;
   }
 
-  .body-head-first-number {
-    position: relative;
-    left: 200px;
-    top: 75px;
+  .body-head-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 200px;
+    gap: 50px;
   }
+
 
   .body-head-second-number {
     position: relative;
-    left: 200px;
-    top: 122px;
+    right: 10px;
   }
 
-  .body-head-third-number {
-    position: relative;
-    left: 200px;
-    top: 164px;
-  }
 
   .body-head-first-number .body-head-first-number-1 {
     font-size: 40px;
@@ -1160,11 +1304,11 @@ li {
   .value-about-us-icon {
     flex-direction: column;
     padding-top: 350px;
-    gap: 10px;
+    gap: 10px
   }
 
   .card-show {
-    padding-top: 450px;
+    padding-top: 400px;
     flex-direction: column;
   }
 
@@ -1184,6 +1328,10 @@ li {
     margin-top: 2800px;
   }
 
+  .contain-hunderd {
+    padding-bottom: 100px;
+  }
+
   .value-all {
     background-image: none;
   }
@@ -1201,9 +1349,7 @@ li {
   .team-introduce-title {
     text-align: center;
     font-size: 32px;
-    position: relative;
-    top: 28px;
-    right: 10px;
+
   }
 
   .team-introduce-info {
@@ -1211,40 +1357,34 @@ li {
     font-size: 16px;
   }
 
-  .ceo-icon-1 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-1 {
+    text-align: center;
   }
 
-  .ceo-icon-2 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-2 {
+    text-align: center;
   }
 
-  .ceo-icon-3 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-3 {
+    text-align: center;
   }
 
-  .ceo-icon-4 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-4 {
+    text-align: center;
   }
 
-  .ceo-icon-5 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-5 {
+    text-align: center;
   }
 
-  .ceo-icon-6 {
-    position: relative;
-    left: 120px;
+  .ceo-porfolio-6 {
+    text-align: center;
   }
+
 
   .ceo-view {
     padding: 10px;
-    position: relative;
-    top: 30px;
+
   }
 
   .hundred-block .hundred-name {
@@ -1260,20 +1400,22 @@ li {
     font-size: 16px;
   }
 
+  .bosslogo {
+    display: flex;
+    gap: 100px;
+    padding-top: 50px;
+  }
+
   .logo-campany-1 {
     flex-direction: column;
     position: relative;
-    left: 120px;
-    gap: 35px;
-    top: 59px;
+    left: 119px;
+    gap: 20px;
   }
 
   .logo-company-2 {
     flex-direction: column;
-    position: relative;
-    left: 400px;
-    bottom: 49px;
-    gap: 36px;
+    gap: 20px;
   }
 
   .want-to-join-words .want-to-join-words-elements-1 {
@@ -1291,46 +1433,61 @@ li {
     top: 50px;
     width: 550px;
   }
+
   .want-to-join-elements {
     display: flex;
     flex-direction: column;
   }
+
   .background-icon img {
     width: 100px;
     position: relative;
     right: 224px;
     top: 74px;
   }
+
   .button-a {
     position: relative;
     bottom: 70px;
   }
+
   .footer-top {
     flex-direction: column;
   }
+
   .footer .footer-Selo {
     position: relative;
     right: 220px;
   }
+
   .footer .footer-email {
     position: relative;
     right: 146px;
   }
+
   .footer .footer-number {
     position: relative;
     right: 91px;
   }
+
   .footer-bottom {
     flex-direction: column-reverse;
     height: 80px;
   }
+
   .footer-menu ul,
   li {
     position: relative;
     top: 20px;
     left: 10px;
+
   }
+
   .footer-bottom .footer-Copyright {
     font-size: 15px;
   }
+}
+
+.page-header .header-btn {
+  display: none;
 }
