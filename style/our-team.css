@@ -727,3 +727,150 @@ li {
 .page-header .header-btn {
     display: none;
 }
+
+@media only screen and (max-width: 46.1875em) {
+    .head-imgs {
+        display: none;
+    }
+
+    .head {
+        padding-top: 150px;
+    }
+
+    .head-ourteam-words .head-ourteam-body {
+        text-align: center;
+        font-size: 36px;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .head-ourteam-words .head-ourteam-p {
+        text-align: center;
+        padding-top: 20px;
+        width: 100%;
+    }
+
+    .head-ourteam-words .head-ourteam-title {
+        text-align: center;
+    }
+
+    .ceo-card-1 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ceo-card-2 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ceo-card-3 {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .ceo-icon-1 {
+        text-align: center;
+    }
+
+    .ceo-icon-2 {
+        text-align: center;
+    }
+
+    .ceo-icon-3 {
+        text-align: center;
+    }
+
+    .ceo-icon-4 {
+        text-align: center;
+    }
+
+    .ceo-icon-5 {
+        text-align: center;
+    }
+
+    .ceo-icon-6 {
+        text-align: center;
+    }
+
+    .ceo-icon-7 {
+        text-align: center;
+    }
+
+    .ceo-icon-8 {
+        text-align: center;
+    }
+
+    .ceo-icon-9 {
+        text-align: center;
+    }
+
+    .want-to-join-words .want-to-join-words-elements-1 {
+        text-align: center;
+        font-size: 36px;
+        letter-spacing: 0px;
+        position: relative;
+        top: 30px;
+    }
+
+    .want-to-join-words .want-to-join-words-elements-2 {
+        text-align: center;
+        font-size: 16px;
+        position: relative;
+        top: 50px;
+        width: 550px;
+    }
+
+    .want-to-join-elements {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .background-icon img {
+        width: 100px;
+        position: relative;
+        right: 224px;
+        top: 74px;
+    }
+
+    .button-a {
+        position: relative;
+        bottom: 70px;
+    }
+
+    .footer-top {
+        flex-direction: column;
+    }
+
+    .footer .footer-Selo {
+        position: relative;
+        right: 220px;
+    }
+
+    .footer .footer-email {
+        position: relative;
+        right: 146px;
+    }
+
+    .footer .footer-number {
+        position: relative;
+        right: 91px;
+    }
+
+    .footer-bottom {
+        flex-direction: column-reverse;
+        height: 80px;
+    }
+
+    .footer-menu ul,
+    li {
+        position: relative;
+        top: 20px;
+        left: 10px;
+
+    }
+
+    .footer-bottom .footer-Copyright {
+        font-size: 15px;
+    }
+}
