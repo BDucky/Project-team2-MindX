@@ -877,11 +877,13 @@ li {
 
     .footer-top {
         flex-direction: column;
+        padding-right: 74px;
     }
 
     .footer .footer-Selo {
         position: relative;
-        right: 220px;
+        right: 233px;
+
     }
 
     .footer .footer-email {
