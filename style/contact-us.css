@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,16 +7,20 @@ body {
   min-width: 550px;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 body a {
   text-decoration: none;
 }
+
 body :root {
   font-family: 'Lexend Deca', sans-serif;
 }
+
 body hr {
   margin: 0;
   padding: 0;
 }
+
 body .header {
   background-image: url(../assets/contact-us/kjgrn.png);
   background-position: center -300px;
@@ -24,12 +29,14 @@ body .header {
   width: 100%;
   max-width: 100%;
 }
+
 body .Container-HTML {
   box-sizing: border-box;
   max-width: 100%;
   margin: 0;
   padding: 0;
 }
+
 body .Container-HTML .Container-contact {
   display: flex;
   justify-content: center;
@@ -41,6 +48,7 @@ body .Container-HTML .Container-contact {
   width: 100%;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-contact .body-contact {
   width: 570px;
   height: 315px;
@@ -48,6 +56,7 @@ body .Container-HTML .Container-contact .body-contact {
   max-width: 100%;
   opacity: 1 !important;
 }
+
 body .Container-HTML .Container-contact .body-contact .Contact {
   text-align: left;
   color: #2CBCA5;
@@ -59,6 +68,7 @@ body .Container-HTML .Container-contact .body-contact .Contact {
   margin: 0 0 10px 0;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-contact .body-contact .Contact-Get {
   text-align: left;
   color: #0F110F;
@@ -69,6 +79,7 @@ body .Container-HTML .Container-contact .body-contact .Contact-Get {
   max-width: 100%;
   padding: 0 0 20px 0;
 }
+
 body .Container-HTML .Container-contact .body-contact .Contact-Text {
   text-align: left;
   color: #666666;
@@ -77,14 +88,17 @@ body .Container-HTML .Container-contact .body-contact .Contact-Text {
   line-height: 1.9em;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-contact .Image-star {
   width: 450px;
   height: 315px;
   padding: 0 0 0 40px;
 }
+
 body .Container-HTML .Container-contact .Image-star img {
   max-width: 100%;
 }
+
 body .Container-HTML .Container-let-get {
   text-align: center;
   width: 100%;
@@ -92,6 +106,7 @@ body .Container-HTML .Container-let-get {
   padding: 60px 0 60px 0;
   margin: auto;
 }
+
 body .Container-HTML .Container-let-get .let-get {
   text-align: center;
   color: #0F110F;
@@ -105,6 +120,7 @@ body .Container-HTML .Container-let-get .let-get {
   height: 93px;
   margin: auto;
 }
+
 body .Container-HTML .Container-let-get .let-text {
   text-align: center;
   color: #666666;
@@ -118,6 +134,7 @@ body .Container-HTML .Container-let-get .let-text {
   height: 93px;
   padding: 0 0 20px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ {
   width: 100%;
   max-width: 100%;
@@ -126,6 +143,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can {
   display: flex;
   justify-content: center;
@@ -134,6 +152,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can {
   margin: auto;
   padding: 0 60px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-title {
   width: 70%;
   max-width: 100%;
@@ -145,6 +164,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-t
   letter-spacing: -0.3px;
   padding: 0 0 40px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-text {
   width: 70%;
   text-align: left;
@@ -154,6 +174,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-t
   line-height: 1.9em;
   margin: auto;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send {
   display: flex;
   justify-content: space-between;
@@ -161,12 +182,14 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send {
   margin: auto auto 50px auto;
   padding: 70px 60px 0 60px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send {
   margin: 10px auto;
   width: 50%;
   max-width: 100%;
   overflow: hidden;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send img {
   max-width: 100%;
   margin: auto;
@@ -177,6 +200,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send i
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us {
   width: 50%;
   max-width: 100%;
@@ -186,6 +210,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   margin: 0 0 0 50px;
   padding: 0 20px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us h2 {
   color: #1a1a1a;
   font-size: bold 10px;
@@ -194,9 +219,11 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   font-weight: 600;
   padding: 0 0 20px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-name1 {
   display: block;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-name {
   width: 90%;
   height: 32px;
@@ -207,6 +234,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   margin: 0 0 25px 0;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-email {
   width: 90%;
   max-width: 100%;
@@ -217,6 +245,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   font-size: 16px;
   margin: 0 0 25px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .your-message {
   width: 90%;
   max-width: 100%;
@@ -226,6 +255,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   border: 1px solid #e4e5e7;
   font-size: 16px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .Submit {
   color: #fff;
   border-radius: 14px;
@@ -239,11 +269,13 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-u
   cursor: pointer;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us .Submit:hover {
   color: #f9f7f7;
   background-color: #010101;
   border-color: #6664e4;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ {
   display: flex;
   justify-content: center;
@@ -253,6 +285,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ {
   margin: auto;
   padding: 20px 60px 40px 60px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left {
   display: flex;
   flex-direction: column;
@@ -260,12 +293,15 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left {
   margin: auto;
   padding: 0 20px 0 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ {
   cursor: pointer;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ hr {
   margin: 25px 0 25px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ span {
   border-bottom-color: #496D5D1F;
   color: #666666;
@@ -275,6 +311,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .F
   padding: 20px;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ summary {
   color: #2CBCA5;
   font-size: 21px;
@@ -283,6 +320,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .F
   max-width: 100%;
   padding: 20px;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right {
   display: flex;
   flex-direction: column;
@@ -290,12 +328,15 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right {
   margin: auto;
   padding: 0 20px 0 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ {
   cursor: pointer;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ hr {
   margin: 25px 0 25px 0;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ span {
   border-bottom-color: #496D5D1F;
   color: #666666;
@@ -305,6 +346,7 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .
   padding: 20px;
   max-width: 100%;
 }
+
 body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ summary {
   color: #2CBCA5;
   font-size: 21px;
@@ -313,12 +355,14 @@ body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .
   max-width: 100%;
   padding: 20px;
 }
+
 body .Container-HTML .Container-Map iframe {
   max-width: 100%;
   max-height: 100%;
   /* Filter đổi màu cho bản đồ */
   filter: brightness(70%) contrast(100%) saturate(0%) blur(0px) hue-rotate(0deg);
 }
+
 body .header .page-header-container {
   background: transparent;
   position: relative;
@@ -328,6 +372,7 @@ body .header .page-header-container {
   padding: 0.25rem 1.5rem;
   height: 70px;
 }
+
 body .header .header-sticky {
   position: fixed;
   top: 0;
@@ -341,6 +386,7 @@ body .header .header-sticky {
   margin-top: 0;
   padding: 0;
 }
+
 body .header .page-header {
   display: flex;
   flex-flow: row nowrap;
@@ -354,9 +400,11 @@ body .header .page-header {
   padding-bottom: 8px;
   height: 70px;
 }
+
 body .header .page-header .header-btn {
   display: none;
 }
+
 body .header .page-header-title a h5 {
   font-weight: 600;
   letter-spacing: -0.021em;
@@ -366,6 +414,7 @@ body .header .page-header-title a h5 {
   margin: 0;
   color: #000;
 }
+
 body .header .page-header-subtitle {
   display: flex;
   width: 100%;
@@ -374,6 +423,7 @@ body .header .page-header-subtitle {
   align-items: center;
   flex-basis: auto;
 }
+
 body .header .page-header-subtitle-list {
   display: flex;
   margin: 0;
@@ -383,13 +433,16 @@ body .header .page-header-subtitle-list {
   margin-bottom: 0;
   list-style: none;
 }
+
 body .header .page-header-subtitle-list li {
   margin-right: 2rem;
 }
+
 body .header .page-header-subtitle-list .page-header-home {
   position: relative;
 }
-body .header .page-header-subtitle-list .page-header-home a > span {
+
+body .header .page-header-subtitle-list .page-header-home a>span {
   font-weight: 600;
   font-size: 16px;
   transition: all 0.45s;
@@ -400,15 +453,18 @@ body .header .page-header-subtitle-list .page-header-home a > span {
   line-height: 2.5;
   color: #000000;
 }
-body .header .page-header-subtitle-list .page-header-home a > span:hover {
+
+body .header .page-header-subtitle-list .page-header-home a>span:hover {
   color: #6664e4;
   background-color: #c5c5c52f;
   border: 15px 20px;
 }
+
 body .header .page-header-subtitle .page-header-contact-btn {
   margin-left: 20px;
 }
-body .header .page-header-subtitle .page-header-contact-btn a > div {
+
+body .header .page-header-subtitle .page-header-contact-btn a>div {
   border: 1px solid #21252980;
   background: #212529;
   color: #ffffff;
@@ -422,10 +478,12 @@ body .header .page-header-subtitle .page-header-contact-btn a > div {
   border-radius: 7px;
   transition: color 450ms, background 450ms;
 }
-body .header .page-header-subtitle .page-header-contact-btn a > div:hover {
+
+body .header .page-header-subtitle .page-header-contact-btn a>div:hover {
   background: #ffffff;
   color: #000000;
 }
+
 .header-sticky {
   position: fixed;
   top: 0;
@@ -439,26 +497,207 @@ body .header .page-header-subtitle .page-header-contact-btn a > div:hover {
   margin-top: 0;
   padding: 0;
 }
+
 details {
   transition: all 300ms ease-in-out;
 }
-details[open] summary ~ * {
+
+details[open] summary~* {
   animation: sweep 1s ease-in-out;
 }
+
 @keyframes sweep {
   0% {
     opacity: 0;
     transform: translateX(0.9);
   }
+
   100% {
     opacity: 1;
     transform: translateX(0);
   }
 }
+
+@media screen and (max-width: 1199px) {
+  .page-header-container.open {
+    z-index: 1;
+    padding: 0;
+  }
+
+  .page-header-container .page-header.open {
+    background: #ffffff;
+    backdrop-filter: saturate(180%) blur(20px);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    align-items: flex-start;
+    z-index: 999;
+    padding: 1rem;
+    height: auto;
+    flex-direction: column;
+  }
+
+  .page-header-container .page-header .header-wrap {
+    backdrop-filter: saturate(180%) blur(20px);
+    z-index: 9;
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn {
+    height: 2.5625rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    align-items: center;
+    padding: 0.25rem 0.75rem;
+    font-size: 1.25rem;
+    line-height: 1;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+    outline: none;
+    overflow: visible;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header {
+    font-size: 1.25rem;
+    line-height: 1;
+    width: 26px;
+    height: 12px;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    animation: ease-in-out 0.5s;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span {
+    display: block;
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    border-radius: 9px;
+    opacity: 1;
+    left: 0;
+    transition: all 0.1806s linear;
+    background: black;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(1) {
+    top: 0;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(2) {
+    top: 10px;
+    width: 50%;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(1) {
+    top: 3px;
+  }
+
+  .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(2) {
+    top: 7px;
+    width: 100%;
+  }
+
+  .page-header-container .page-header .header-wrap .page-header-title {
+    flex-grow: 1;
+    text-align: center;
+    margin-right: 5.125rem;
+    margin-left: 1.875rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .page-header-container .page-header .page-header-subtitle {
+    display: none;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open {
+    display: grid;
+    justify-content: unset !important;
+    transition: background 0.44s 0.2s cubic-bezier(0.52, 0.16, 0.24, 1), height 0.56s cubic-bezier(0.52, 0.16, 0.24, 1);
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list {
+    padding-bottom: 498px;
+    flex-direction: column;
+    padding-top: 6px;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: 0;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home {
+    margin-right: 0;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home:hover {
+    color: #6664e4;
+    background-color: #c5c5c52f;
+    border: 15px 20px;
+    cursor: pointer;
+  }
+
+  .page-header-container .page-header .page-header-subtitle.open .page-header-contact-btn {
+    margin: 16px auto auto;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    padding-right: 200px
+  }
+
+  .footer .footer-Selo {
+    position: relative;
+    right: 235px;
+  }
+
+  .footer .footer-email {
+    position: relative;
+    right: 146px;
+  }
+
+  .footer .footer-number {
+    position: relative;
+    right: 91px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    height: 80px;
+  }
+
+  .footer-menu ul,
+  li {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+  }
+
+  .footer-bottom .footer-Copyright {
+    font-size: 15px;
+  }
+}
+
 @media screen and (max-width: 992px) {
   .Container-HTML .Container-contact .Image-star {
     display: none;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send {
     display: flex;
     flex-direction: column;
@@ -466,15 +705,18 @@ details[open] summary ~ * {
     margin: auto auto 50px auto;
     padding: 70px 60px 0 60px;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us {
     margin: auto;
     padding: 0 0 20px 20px;
     width: 80%;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .Image-send {
     width: 80%;
     margin: auto;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can {
     display: flex;
     flex-direction: column;
@@ -482,6 +724,7 @@ details[open] summary ~ * {
     width: 80%;
     margin: auto;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-text {
     max-width: 100%;
     width: 80%;
@@ -490,6 +733,7 @@ details[open] summary ~ * {
     margin: 0 auto 20px auto;
     text-align: center;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-How-can .how-can-title {
     max-width: 100%;
     margin: auto;
@@ -497,6 +741,7 @@ details[open] summary ~ * {
     font-size: 33px;
     text-align: center;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ {
     display: flex;
     flex-direction: column;
@@ -505,6 +750,7 @@ details[open] summary ~ * {
     margin: auto;
     padding: 0 40px;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left {
     text-align: center;
     max-width: 100%;
@@ -512,6 +758,7 @@ details[open] summary ~ * {
     margin: auto;
     padding: 0 40px;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right {
     text-align: center;
     max-width: 100%;
@@ -519,16 +766,20 @@ details[open] summary ~ * {
     margin: 0 auto 30px auto;
     padding: 0 40px;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-left .FAQ details summary {
     font-size: 15px;
   }
+
   body .Container-HTML .Container-Group-Send-How-FAQ .Container-FAQ .group-right .FAQ details summary {
     font-size: 15px;
   }
 }
+
 .footer {
   padding: 56px 40px 10px 40px;
 }
+
 .footer .footer-top {
   display: flex;
   align-items: center;
@@ -539,15 +790,18 @@ details[open] summary ~ * {
   border-color: #25252521;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
+
 .footer .footer-Selo {
   padding: 0px 0px 32px;
   width: 188px;
 }
+
 .footer-Selo h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer-Selo p {
   margin: 0px 0px 18px;
   font: 36px;
@@ -555,35 +809,42 @@ details[open] summary ~ * {
   font-weight: 600;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer .footer-email {
   padding: 0px 0px 32px;
 }
+
 .footer-email h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer-email p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer .footer-number {
   padding: 0px 0px 32px;
   margin-right: 200px;
 }
+
 .footer-number h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer-number p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
   font-family: 'Lexend Deca', sans-serif;
 }
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -591,35 +852,43 @@ details[open] summary ~ * {
   height: 116px;
   margin: 0 0 10px 0;
 }
+
 .footer-bottom .footer-Copyright {
   font-family: 'Lexend Deca', sans-serif;
   color: #a0a1a2;
   margin-left: 30px;
 }
+
 .footer-bottom .footer-Copyright p {
   font-size: 13px;
 }
+
 .footer-bottom .footer-menu {
   font-family: 'Lexend Deca', sans-serif;
   display: flex;
 }
+
 .footer-bottom .footer-navbar-menu li {
   position: relative;
   right: 30px;
   color: black;
 }
+
 .footer-bottom .footer-navbar-menu li a {
   color: black;
 }
+
 .footer-bottom .footer-navbar-menu li a:hover {
   color: #6664e4;
 }
+
 .footer-menu li {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   line-height: 1.7rem;
   font-size: 14px;
 }
+
 li {
   list-style: none;
 }

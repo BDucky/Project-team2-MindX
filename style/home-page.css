@@ -10,15 +10,18 @@ body {
   text-align: left;
   overflow: auto;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+
 .home-page-top-section {
   position: relative;
   background: url("https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png") no-repeat center center;
   background-size: cover;
 }
+
 .page-header-container {
   background: transparent;
   position: relative;
@@ -28,6 +31,7 @@ a {
   padding: 0.25rem 1.5rem;
   height: 70px;
 }
+
 .header-sticky {
   position: fixed;
   top: 0;
@@ -41,6 +45,7 @@ a {
   margin-top: 0;
   padding: 0;
 }
+
 .page-header {
   display: flex;
   flex-flow: row nowrap;
@@ -54,9 +59,11 @@ a {
   padding-bottom: 8px;
   height: 70px;
 }
+
 .page-header .header-btn {
   display: none;
 }
+
 .page-header-title a h5 {
   font-weight: 600;
   letter-spacing: -0.021em;
@@ -65,6 +72,7 @@ a {
   margin-left: 16px;
   margin: 0;
 }
+
 .page-header-subtitle {
   display: flex;
   width: 100%;
@@ -73,6 +81,7 @@ a {
   align-items: center;
   flex-basis: auto;
 }
+
 .page-header-subtitle-list {
   display: flex;
   margin: 0;
@@ -82,13 +91,16 @@ a {
   margin-bottom: 0;
   list-style: none;
 }
+
 .page-header-subtitle-list li {
   margin-right: 2rem;
 }
+
 .page-header-subtitle-list .page-header-home {
   position: relative;
 }
-.page-header-subtitle-list .page-header-home a > span {
+
+.page-header-subtitle-list .page-header-home a>span {
   font-weight: 500;
   font-size: 16px;
   transition: all 0.45s;
@@ -99,15 +111,18 @@ a {
   line-height: 2.5;
   color: #000000;
 }
-.page-header-subtitle-list .page-header-home a > span:hover {
+
+.page-header-subtitle-list .page-header-home a>span:hover {
   color: #6664e4;
   background-color: #c5c5c52f;
   border: 15px 20px;
 }
+
 .page-header-subtitle .page-header-contact-btn {
   margin-left: 20px;
 }
-.page-header-subtitle .page-header-contact-btn a > div {
+
+.page-header-subtitle .page-header-contact-btn a>div {
   border: 1px solid #21252980;
   background: #212529;
   color: #ffffff;
@@ -121,15 +136,18 @@ a {
   border-radius: 7px;
   transition: color 450ms, background 450ms;
 }
-.page-header-subtitle .page-header-contact-btn a > div:hover {
+
+.page-header-subtitle .page-header-contact-btn a>div:hover {
   background: #ffffff;
   color: #000000;
 }
+
 @media screen and (max-width: 1199px) {
   .page-header-container.open {
     z-index: 1;
     padding: 0;
   }
+
   .page-header-container .page-header.open {
     background: #ffffff;
     backdrop-filter: saturate(180%) blur(20px);
@@ -143,6 +161,7 @@ a {
     height: auto;
     flex-direction: column;
   }
+
   .page-header-container .page-header .header-wrap {
     backdrop-filter: saturate(180%) blur(20px);
     z-index: 9;
@@ -153,6 +172,7 @@ a {
     justify-content: space-between;
     width: 100%;
   }
+
   .page-header-container .page-header .header-wrap .header-btn {
     height: 2.5625rem;
     padding-top: 0;
@@ -168,6 +188,7 @@ a {
     outline: none;
     overflow: visible;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header {
     font-size: 1.25rem;
     line-height: 1;
@@ -178,6 +199,7 @@ a {
     cursor: pointer;
     animation: ease-in-out 0.5s;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header span {
     display: block;
     position: absolute;
@@ -189,20 +211,25 @@ a {
     transition: all 0.1806s linear;
     background: black;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(1) {
     top: 0;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header span:nth-child(2) {
     top: 10px;
     width: 50%;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(1) {
     top: 3px;
   }
+
   .page-header-container .page-header .header-wrap .header-btn .animated-header.open span:nth-child(2) {
     top: 7px;
     width: 100%;
   }
+
   .page-header-container .page-header .header-wrap .page-header-title {
     flex-grow: 1;
     text-align: center;
@@ -212,9 +239,11 @@ a {
     align-items: center;
     justify-content: center;
   }
+
   .page-header-container .page-header .page-header-subtitle {
     display: none;
   }
+
   .page-header-container .page-header .page-header-subtitle.open {
     display: grid;
     justify-content: unset !important;
@@ -223,6 +252,7 @@ a {
     flex-grow: 1;
     align-items: center;
   }
+
   .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list {
     padding-bottom: 498px;
     flex-direction: column;
@@ -233,17 +263,57 @@ a {
     list-style: none;
     margin-left: 0;
   }
+
   .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home {
     margin-right: 0;
   }
+
   .page-header-container .page-header .page-header-subtitle.open .page-header-subtitle-list .page-header-home:hover {
     color: #6664e4;
     background-color: #c5c5c52f;
     border: 15px 20px;
     cursor: pointer;
   }
+
   .page-header-container .page-header .page-header-subtitle.open .page-header-contact-btn {
     margin: 16px auto auto;
+  }
+
+  .footer-top {
+    flex-direction: column;
+    padding-right: 200px
+  }
+
+  .footer .footer-Selo {
+    position: relative;
+    right: 235px;
+  }
+
+  .footer .footer-email {
+    position: relative;
+    right: 146px;
+  }
+
+  .footer .footer-number {
+    position: relative;
+    right: 91px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    height: 80px;
+  }
+
+  .footer-menu ul,
+  li {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+  }
+
+  .footer-bottom .footer-Copyright {
+    font-size: 15px;
   }
 }
 
@@ -257,12 +327,14 @@ a {
   --widgets-spacing: 20px;
   box-sizing: border-box;
 }
+
 .home-page-get-started-wrapper .content-wrapper {
   width: 100%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content {
   flex-basis: 50%;
   position: relative;
@@ -273,6 +345,7 @@ a {
   justify-content: center;
   align-content: center;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-title {
   color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
@@ -286,6 +359,7 @@ a {
   background-size: 200px auto;
   margin-bottom: 20px;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-description {
   color: #3b3b3b;
   font-family: "Inter", Sans-serif;
@@ -295,6 +369,7 @@ a {
   letter-spacing: 0px;
   margin-bottom: 20px;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
@@ -306,9 +381,11 @@ a {
   width: 30%;
   text-align: center;
 }
-.home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn a > div {
+
+.home-page-get-started-wrapper .content-wrapper .get-started-content .content-btn .get-started-btn a>div {
   color: white;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad {
   display: flex;
   justify-content: flex-start;
@@ -317,12 +394,14 @@ a {
   width: 100%;
   align-items: center;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-img {
   width: 100%;
   margin: 0px 20px 0px 0px;
   --e-column-margin-right: 20px;
   --e-column-margin-left: 0px;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-img img {
   height: auto;
   max-width: 100%;
@@ -331,6 +410,7 @@ a {
   box-shadow: none;
   height: 50%;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-content .content-ad-title {
   width: 100%;
   color: #3b3b3bab;
@@ -338,18 +418,22 @@ a {
   font-size: 15px;
   font-weight: 500;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-img {
   flex-basis: 50%;
 }
+
 .home-page-get-started-wrapper .content-wrapper .get-started-img img {
   width: 100%;
 }
+
 .marquee-section {
   background-color: #f7f7f7;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   position: relative;
   --widgets-spacing: 20px;
 }
+
 .marquee-section .marquee-wrapper {
   display: flex;
   margin-right: auto;
@@ -357,6 +441,7 @@ a {
   position: relative;
   max-width: 1200px;
 }
+
 .marquee-section .marquee-wrapper .marquee-content {
   width: 100%;
   position: relative;
@@ -365,6 +450,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .marquee-section .marquee-wrapper .marquee-content-wrapper {
   padding: 40px 0px 40px 0px;
   width: 100%;
@@ -375,6 +461,7 @@ a {
   display: flex;
   align-items: center;
 }
+
 .marquee-section .marquee-wrapper .marquee-content img {
   width: 115px;
   margin-right: 86px;
@@ -383,6 +470,7 @@ a {
   position: relative;
   text-align: center;
 }
+
 .second-section {
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/ithg3.png);
   background-size: cover;
@@ -391,6 +479,7 @@ a {
   margin-bottom: 0px;
   padding: 0px 0px 60px 0px;
 }
+
 .mission-section-wrapper {
   display: flex;
   margin-right: auto;
@@ -398,9 +487,11 @@ a {
   position: relative;
   max-width: 1140px;
 }
+
 .mission-section-wrapper .mission-section-content {
   width: 100%;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper {
   width: 100%;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -412,10 +503,12 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img {
   width: 50%;
   animation-name: fadeIn;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper {
   margin: 0px 0px 0px 0px;
   --e-column-margin-right: 0px;
@@ -427,12 +520,14 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .color-img {
   position: absolute;
   z-index: 1;
   width: 100%;
   text-align: center;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .color-img img {
   vertical-align: middle;
   display: inline-block;
@@ -442,12 +537,14 @@ a {
   border-radius: 0;
   box-shadow: none;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .main-img {
   width: 100%;
   text-align: center;
   margin: 60px 60px 60px 60px;
   padding: 0px 0px 0px 0px;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-img-wrapper .main-img img {
   border-radius: 10px 10px 10px 10px;
   height: auto;
@@ -457,6 +554,7 @@ a {
   vertical-align: middle;
   display: inline-block;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description {
   width: 50%;
   animation-name: fadeIn;
@@ -464,6 +562,7 @@ a {
   align-items: center;
   display: flex;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper {
   align-content: center;
   align-items: center;
@@ -473,6 +572,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-title {
   width: 100%;
   text-align: left;
@@ -484,6 +584,7 @@ a {
   letter-spacing: 0px;
   padding: 0px 0px 20px 0px;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-subtitle {
   margin: 0px 0px 20px 0px;
   color: #3b3b3b;
@@ -493,12 +594,15 @@ a {
   line-height: 1.8em;
   letter-spacing: 0px;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate {
   width: 100%;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper {
   margin: 0px 0px 10px 0px;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list {
   display: flex;
   flex-wrap: wrap;
@@ -509,6 +613,7 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item {
   border-radius: 0px 0px 0px 0px;
   margin: 0px 0px 0px 0px;
@@ -522,11 +627,13 @@ a {
   transform-origin: left center;
   list-style-position: inside;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper {
   display: flex;
   flex-direction: row;
   order: 5;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-bullet {
   -webkit-font-smoothing: antialiased;
   display: inline-block;
@@ -541,9 +648,11 @@ a {
   font-size: 19px;
   color: #50af9b;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-bullet ::before {
   content: "\f192";
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-certificate-wrapper .mission-certificate-list .item-wrapper .item-title {
   font-family: "Inter", Sans-serif;
   font-size: 18px;
@@ -552,6 +661,7 @@ a {
   letter-spacing: 0px;
   color: #272c2e;
 }
+
 .mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
@@ -567,14 +677,17 @@ a {
   line-height: 22px;
   transition: all 0.45s;
 }
-.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn a > div {
+
+.mission-section-wrapper .mission-section-content-wrapper .mission-description-wrapper .mission-btn .get-started-btn a>div {
   color: white;
 }
+
 .text-ad {
   width: 100%;
   padding: 100px 0px 40px 0px;
   animation-name: fadeIn;
 }
+
 .text-ad-container {
   max-width: 560px;
   display: flex;
@@ -582,6 +695,7 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .text-ad-container .text-ad-display {
   padding: 0;
   display: flex;
@@ -591,6 +705,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .text-ad-container .text-ad-display .text-ad-title {
   margin-bottom: 0px;
   text-align: center;
@@ -603,6 +718,7 @@ a {
   width: 100%;
   --widgets-spacing: 20px;
 }
+
 .text-ad-container .text-ad-display .text-ad-subtitle {
   text-align: center;
   color: #3b3b3b;
@@ -614,6 +730,7 @@ a {
   width: 100%;
   --widgets-spacing: 20px;
 }
+
 .visibility-container {
   max-width: 1200px;
   display: flex;
@@ -621,12 +738,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .visibility-container .visibility-btn-container {
   width: 66.7%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .visibility-container .visibility-btn-container .visibility-btn-content {
   background-color: #ee8735;
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/rkvjr.png);
@@ -646,6 +765,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .visibility-container .visibility-btn-container .visibility-btn-content .content {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -659,10 +779,12 @@ a {
   letter-spacing: 0px;
   padding: 0px 0px 20px 0px;
 }
+
 .visibility-container .visibility-btn-container .visibility-btn-content .btn {
   margin: 10px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
+
 .visibility-container .visibility-btn-container .visibility-btn-content .btn-get-started {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
@@ -680,12 +802,14 @@ a {
   border: none;
   text-decoration: none;
 }
+
 .visibility-container .visibility-keyword-container {
   width: 33.3%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content {
   justify-content: flex-start;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -701,10 +825,12 @@ a {
   align-content: flex-start;
   background-color: #ffffff;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-img {
   text-align: left;
   width: auto;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-img img {
   width: 55px;
   height: auto;
@@ -713,6 +839,7 @@ a {
   border-radius: 0;
   box-shadow: none;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -725,6 +852,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text .title {
   text-align: left;
   color: #010101;
@@ -734,6 +862,7 @@ a {
   margin-bottom: 0px;
   width: 100%;
 }
+
 .visibility-container .visibility-keyword-container .visibility-keyword-content .keyword-text .content {
   text-align: left;
   color: #3b3b3bb8;
@@ -743,10 +872,12 @@ a {
   line-height: 1.6em;
   width: 100%;
 }
+
 .SEO-section {
   padding: 0px 0px 0px 0px;
   width: 100%;
 }
+
 .SEO-section .SEO-container {
   max-width: 1200px;
   display: flex;
@@ -754,12 +885,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .SEO-section .SEO-container .SEO-content-container {
   width: 33.333%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content {
   justify-content: flex-start;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
@@ -775,10 +908,12 @@ a {
   align-content: flex-start;
   background-color: #ffffff;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-img {
   text-align: left;
   width: auto;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-img img {
   width: 55px;
   height: auto;
@@ -787,6 +922,7 @@ a {
   border-radius: 0;
   box-shadow: none;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text {
   margin-top: 10px;
   margin-bottom: 0px;
@@ -799,6 +935,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text .title {
   text-align: left;
   color: #010101;
@@ -808,6 +945,7 @@ a {
   margin-bottom: 0px;
   width: 100%;
 }
+
 .SEO-section .SEO-container .SEO-content-container .SEO-content .SEO-text .content {
   text-align: left;
   color: #3b3b3bb8;
@@ -817,12 +955,14 @@ a {
   line-height: 1.6em;
   width: 100%;
 }
+
 .third-section {
   background-color: #262c2e;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 100px 0px 0px 0px;
   position: relative;
 }
+
 .third-section .service-introduction {
   max-width: 1200px;
   display: flex;
@@ -830,6 +970,7 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .third-section .service-introduction-container {
   min-height: 1px;
   display: flex;
@@ -839,6 +980,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .third-section .service-introduction-container section .introduction-numbers {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-top: 0px;
@@ -846,6 +988,7 @@ a {
   padding: 0px 20px 0px 20px;
   width: 100%;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container {
   max-width: 1200px;
   display: flex;
@@ -853,6 +996,7 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers {
   width: 44.244%;
   position: relative;
@@ -860,6 +1004,7 @@ a {
   display: flex;
   animation-duration: 1.25s;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container {
   align-content: center;
   align-items: center;
@@ -869,6 +1014,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .title {
   text-align: left;
   color: #ffffff;
@@ -880,6 +1026,7 @@ a {
   margin-bottom: 0px;
   padding: 0px 0px 20px 0px;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .subtitle {
   color: #ffffff99;
   font-family: "Inter", Sans-serif;
@@ -891,9 +1038,11 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics {
   width: 100%;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container {
   max-width: 1140px;
   display: flex;
@@ -901,12 +1050,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers {
   width: 50%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display {
   position: relative;
   width: 100%;
@@ -918,6 +1069,7 @@ a {
   padding: 0px 0px 0px 0px;
   display: flex;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number {
   margin-bottom: 0px;
   color: #2cbca5;
@@ -927,6 +1079,7 @@ a {
   line-height: 1.4em;
   width: 100%;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .numbers .numbers-container .statistics-container .happy-customers-display .number-title {
   color: #ffffff;
   font-family: "DM Sans", Sans-serif;
@@ -936,9 +1089,11 @@ a {
   --container-widget-width: 200px;
   --container-widget-flex-grow: 0;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .img {
   width: 55.713%;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .img-container {
   padding: 0px 0px 0px 0px;
   display: flex;
@@ -948,9 +1103,11 @@ a {
   align-content: flex-start;
   text-align: center;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .img-container .img-display {
   margin: 0px 40px 0px 60px;
 }
+
 .third-section .service-introduction-container section .introduction-numbers-container .img-container .img-display img {
   height: auto;
   max-width: 100%;
@@ -958,6 +1115,7 @@ a {
   border-radius: 0;
   box-shadow: none;
 }
+
 .third-section .service-introduction-container section .view-team-section {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-top: 0px;
@@ -965,6 +1123,7 @@ a {
   padding: 80px 20px 100px 20px;
   width: 100%;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container {
   max-width: 1200px;
   display: flex;
@@ -972,10 +1131,12 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img {
   width: 55.713%;
   animation-name: fadeIn;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container {
   padding: 0px 0px 0px 0px;
   display: flex;
@@ -985,9 +1146,11 @@ a {
   align-content: flex-start;
   text-align: center;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container .img-display {
   margin: 0px 40px 0px 60px;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-img .img-container .img-display img {
   height: auto;
   max-width: 100%;
@@ -995,9 +1158,11 @@ a {
   border-radius: 0;
   box-shadow: none;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details {
   width: 44.244%;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container {
   display: flex;
   align-content: center;
@@ -1007,6 +1172,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .title {
   text-align: left;
   color: #ffffff;
@@ -1019,6 +1185,7 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .subtitle {
   color: #ffffff99;
   font-family: "Inter", Sans-serif;
@@ -1030,11 +1197,13 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .btn {
   width: 100%;
   text-align: left;
   position: relative;
 }
+
 .third-section .service-introduction-container section .view-team-section .view-team-container .view-team-details-container .btn .view-team-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 20px;
@@ -1047,6 +1216,7 @@ a {
   box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
   padding: 0px 0px 0px 0px;
 }
+
 .fourth-section {
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/ygubk.png);
   background-position: center right;
@@ -1054,6 +1224,7 @@ a {
   background-size: cover;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
+
 .fourth-section .billing {
   max-width: 1200px;
   display: flex;
@@ -1061,6 +1232,7 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .fourth-section .billing-container {
   position: relative;
   min-height: 1px;
@@ -1070,6 +1242,7 @@ a {
   width: 100%;
   padding: 0px 0px 0px 0px;
 }
+
 .fourth-section .billing-container section .billing-section {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   margin-top: 0px;
@@ -1077,6 +1250,7 @@ a {
   padding: 100px 0px 90px 0px;
   width: 100%;
 }
+
 .fourth-section .billing-container section .billing-section-container {
   max-width: 1200px;
   display: flex;
@@ -1084,12 +1258,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .fourth-section .billing-container section .billing-section-container .details {
   width: 38.647%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container {
   align-content: center;
   align-items: center;
@@ -1099,6 +1275,7 @@ a {
   width: 100%;
   flex-wrap: wrap;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-top-img {
   max-width: 100%;
   margin-bottom: 0;
@@ -1107,6 +1284,7 @@ a {
   text-align: center;
   margin-bottom: 25px;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-top-img img {
   width: 95px;
   height: auto;
@@ -1119,6 +1297,7 @@ a {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-title {
   text-align: left;
   color: #272c2e;
@@ -1131,6 +1310,7 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-subtitle {
   color: #3b3b3b;
   font-family: "Inter", Sans-serif;
@@ -1142,11 +1322,13 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-btn {
   width: 100%;
   text-align: left;
   position: relative;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-btn .learn-more-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 20px;
@@ -1159,6 +1341,7 @@ a {
   box-shadow: 0px 20px 60px 0px rgba(21, 92, 231, 0);
   padding: 0px 0px 0px 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-bottom-img {
   max-width: 100%;
   margin-bottom: 0;
@@ -1169,6 +1352,7 @@ a {
   width: 100%;
   justify-content: flex-end;
 }
+
 .fourth-section .billing-container section .billing-section-container .details-container .detail-bottom-img img {
   width: 95px;
   height: auto;
@@ -1181,12 +1365,14 @@ a {
   overflow-clip-margin: content-box;
   overflow: clip;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments {
   width: 61.31%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container {
   margin: 0px 0px 0px 0px;
   --e-column-margin-right: 0px;
@@ -1198,6 +1384,7 @@ a {
   align-content: flex-start;
   display: flex;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display {
   margin-top: 0px;
   margin-bottom: 0px;
@@ -1210,12 +1397,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods {
   width: 50%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container {
   background-color: #ffffff;
   justify-content: center;
@@ -1232,6 +1421,7 @@ a {
   flex-wrap: wrap;
   align-content: flex-start;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier {
   text-align: left;
   color: #d351b0;
@@ -1244,6 +1434,7 @@ a {
   max-width: 100%;
   width: 100%;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier div {
   margin: 0px 0px 2px 0px;
   padding: 7px 20px 7px 20px;
@@ -1259,6 +1450,7 @@ a {
   letter-spacing: 2px;
   text-align: center;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier-pro {
   text-align: left;
   color: #50af9b;
@@ -1271,6 +1463,7 @@ a {
   max-width: 100%;
   width: 100%;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .tier-pro div {
   margin: 0px 0px 2px 0px;
   padding: 7px 20px 7px 20px;
@@ -1286,6 +1479,7 @@ a {
   letter-spacing: 2px;
   text-align: center;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .price {
   text-align: center;
   width: auto;
@@ -1293,6 +1487,7 @@ a {
   max-width: 100%;
   padding: 15px 0px 15px 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .price div {
   color: #272c2e;
   font-family: "Lexend Deca", Sans-serif;
@@ -1303,6 +1498,7 @@ a {
   margin: 0;
   line-height: 1;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .month {
   text-align: center;
   width: auto;
@@ -1315,16 +1511,19 @@ a {
   font-weight: 700;
   letter-spacing: 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark {
   width: 100%;
   --e-icon-list-icon-size: 18px;
   padding: 30px 0px 20px 0px;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list {
   display: flex;
   align-items: center;
@@ -1334,9 +1533,11 @@ a {
   position: relative;
   padding-bottom: calc(20px / 2);
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon {
   display: flex;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon .icon {
   color: #d351b0;
   width: 1.25em;
@@ -1347,6 +1548,7 @@ a {
   text-rendering: auto;
   line-height: 1;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-icon .icon-green {
   color: #39c297;
   width: 1.25em;
@@ -1357,6 +1559,7 @@ a {
   text-rendering: auto;
   line-height: 1;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-text {
   font-family: "Inter", Sans-serif;
   font-size: 16px;
@@ -1367,6 +1570,7 @@ a {
   padding-left: 7px;
   align-self: center;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .check-mark-ul .check-mark-list-text-blur {
   font-family: "Inter", Sans-serif;
   font-size: 16px;
@@ -1375,9 +1579,11 @@ a {
   color: #4f4f4f94;
   padding-left: 7px;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn {
   width: 100%;
 }
+
 .fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn .get-started-btn {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
@@ -1391,7 +1597,8 @@ a {
   margin: 10px 0px 0px 0px;
   padding: 0px 0px 0px 0px;
 }
-.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn .get-started-btn a > div {
+
+.fourth-section .billing-container section .billing-section-container .payments-container .payments-display .payment-methods-container .content-btn .get-started-btn a>div {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
   font-weight: 600;
@@ -1401,11 +1608,13 @@ a {
   padding: 15px 50px 15px 50px;
   color: white;
 }
+
 .fourth-section .billing-container section .img-section {
   padding: 0px 0px 100px 30px;
   width: 100%;
   position: relative;
 }
+
 .fourth-section .billing-container section .img-section-container {
   display: flex;
   margin-right: auto;
@@ -1414,6 +1623,7 @@ a {
   width: 100%;
   max-width: 1200px;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background {
   background-color: #50af9b;
   justify-content: flex-start;
@@ -1429,6 +1639,7 @@ a {
   align-content: flex-start;
   display: flex;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img {
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/rtgr.png);
   background-position: bottom right;
@@ -1440,6 +1651,7 @@ a {
   padding: 0px 0px 40px 0px;
   width: 100%;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display {
   max-width: 1140px;
   display: flex;
@@ -1447,12 +1659,14 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .img {
   width: 31.807%;
   position: relative;
   min-height: 1px;
   display: flex;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .img-container {
   margin: 0px 0px 0px 0px;
   --e-column-margin-right: 0px;
@@ -1464,9 +1678,11 @@ a {
   align-content: flex-start;
   width: 100%;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .img-container .img-margin {
   margin: -40px 0px 0px -40px;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .img-container .img-margin img {
   border-radius: 10px 10px 10px 10px;
   height: auto;
@@ -1474,6 +1690,7 @@ a {
   border: none;
   box-shadow: none;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content {
   width: 68.193%;
   position: relative;
@@ -1485,14 +1702,17 @@ a {
   align-items: center;
   padding: 0px 40px 0px 40px;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-icon {
   margin-bottom: 0px;
   width: 100%;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-icon .container {
   margin: 0px 0px 10px 0px;
   text-align: left;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-icon .container .icon {
   background-color: #262c2e;
   font-size: 26px;
@@ -1504,6 +1724,7 @@ a {
   color: #fff;
   fill: #fff;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-text {
   text-align: left;
   color: #ffffff;
@@ -1516,11 +1737,13 @@ a {
   width: 100%;
   padding: 0px 0px 20px 0px;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-author {
   text-align: left;
   width: 100%;
   position: relative;
 }
+
 .fourth-section .billing-container section .img-section-container .img-section-background .bg-img .content-display .content-author h5 {
   color: #ffffff9e;
   font-family: "Inter", Sans-serif;
@@ -1528,6 +1751,7 @@ a {
   font-weight: 600;
   letter-spacing: 0px;
 }
+
 .dark-footer {
   background-color: #262c2e;
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/rkvjr.png);
@@ -1537,6 +1761,7 @@ a {
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
   padding: 80px 0px 80px 0px;
 }
+
 .dark-footer-img {
   background-image: url(https://selo.b-cdn.net/wp-content/uploads/2022/09/efve.png);
   background-position: 3% 3%;
@@ -1549,6 +1774,7 @@ a {
   left: 0;
   position: absolute;
 }
+
 .dark-footer .dark-footer-elements {
   max-width: 1200px;
   display: flex;
@@ -1556,6 +1782,7 @@ a {
   margin-left: auto;
   position: relative;
 }
+
 .dark-footer .dark-footer-elements-container {
   width: 100%;
   position: relative;
@@ -1564,9 +1791,11 @@ a {
   padding: 0px 0px 0px 0px;
   align-content: flex-start;
 }
+
 .dark-footer .dark-footer-elements-container .content {
   width: 67.392%;
 }
+
 .dark-footer .dark-footer-elements-container .content-display {
   align-content: center;
   align-items: center;
@@ -1574,6 +1803,7 @@ a {
   display: flex;
   flex-wrap: wrap;
 }
+
 .dark-footer .dark-footer-elements-container .content-display .title {
   margin-bottom: 0px;
   color: #ffffff;
@@ -1589,6 +1819,7 @@ a {
   background-repeat: no-repeat;
   background-size: 150px auto;
 }
+
 .dark-footer .dark-footer-elements-container .content-display .detail {
   color: #ffffff99;
   font-family: "Inter", Sans-serif;
@@ -1598,6 +1829,7 @@ a {
   letter-spacing: 0px;
   width: 100%;
 }
+
 .dark-footer .dark-footer-elements-container .btn {
   width: 32.564%;
   align-content: center;
@@ -1607,6 +1839,7 @@ a {
   position: relative;
   flex-wrap: wrap;
 }
+
 .dark-footer .dark-footer-elements-container .btn-container {
   width: 100%;
   position: relative;
@@ -1616,6 +1849,7 @@ a {
   display: flex;
   justify-content: flex-end;
 }
+
 .dark-footer .dark-footer-elements-container .btn-container .btn-a {
   font-family: "Lexend Deca", Sans-serif;
   font-size: 18px;
@@ -1629,20 +1863,25 @@ a {
   text-align: center;
   width: auto;
 }
+
 .dark-footer .dark-footer-elements-container .btn-container .btn-a:hover {
   background-color: #ffffff;
   transition: all 0.45s;
   color: #0f110f;
 }
+
 .dark-footer .dark-footer-elements-container .btn-container .btn-a a:hover {
   color: #0f110f;
 }
+
 .dark-footer .dark-footer-elements-container .btn-container .btn-a a {
   color: #ffffff;
 }
+
 .footer {
   padding-top: 56px;
 }
+
 .footer .footer-top {
   display: flex;
   align-items: center;
@@ -1653,15 +1892,18 @@ a {
   border-color: #25252521;
   transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
 }
+
 .footer .footer-Selo {
   padding: 0px 0px 32px;
   width: 188px;
 }
+
 .footer-Selo h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer-Selo p {
   margin: 0px 0px 18px;
   font: 36px;
@@ -1669,61 +1911,73 @@ a {
   font-weight: 600;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer .footer-email {
   padding: 0px 0px 32px;
 }
+
 .footer-email h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer-email p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer .footer-number {
   padding: 0px 0px 32px;
   margin-right: 200px;
 }
+
 .footer-number h3 {
   margin: 0px 0px 18px;
   font-size: 36px;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer-number p {
   margin: 0px 0px 18px;
   font-size: 15px;
   font-weight: 600;
   font-family: "Lexend Deca", sans-serif;
 }
+
 .footer-bottom {
   display: flex;
   justify-content: space-between;
   align-items: center;
   height: 116px;
 }
+
 .footer-bottom .footer-Copyright {
   font-family: "Lexend Deca", sans-serif;
   color: #a0a1a2;
   margin-left: 30px;
 }
+
 .footer-bottom .footer-menu {
   font-family: "Lexend Deca", sans-serif;
   display: flex;
 }
+
 .footer-bottom .footer-navbar-menu li {
   position: relative;
   right: 30px;
   color: black;
 }
+
 .footer-menu li {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   line-height: 1.7rem;
   font-size: 14px;
 }
+
 ul,
 li {
   list-style: none;

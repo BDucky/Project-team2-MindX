@@ -284,6 +284,43 @@ a {
   .page-header-container .page-header .page-header-subtitle.open .page-header-contact-btn {
     margin: 16px auto auto;
   }
+
+  .footer-top {
+    flex-direction: column;
+    padding-right: 200px
+  }
+
+  .footer .footer-Selo {
+    position: relative;
+    right: 235px;
+  }
+
+  .footer .footer-email {
+    position: relative;
+    right: 146px;
+  }
+
+  .footer .footer-number {
+    position: relative;
+    right: 91px;
+  }
+
+  .footer-bottom {
+    flex-direction: column-reverse;
+    height: 80px;
+  }
+
+  .footer-menu ul,
+  li {
+    position: relative;
+    top: 20px;
+    left: 10px;
+
+  }
+
+  .footer-bottom .footer-Copyright {
+    font-size: 15px;
+  }
 }
 
 .reveal {
