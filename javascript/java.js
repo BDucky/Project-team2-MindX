@@ -124,5 +124,5 @@ myForm.addEventListener("submit", function (event) {
     localStorage.setItem("message", messageValue);
 
     // Thông báo cho người dùng rằng dữ liệu đã được lưu thành công vào local storage
-    alert("Dữ liệu đã được lưu thành công vào local storage!");
+    alert("Đăng ký thành công!");
 });
