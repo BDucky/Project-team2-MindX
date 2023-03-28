@@ -98,20 +98,18 @@
                     <div>
                         <h2>Send us a message</h2>
                     </div>
-                    <div class="your-name1">Your name
+                    <form id="myForm">
+                        <label for="your-name">Your name:</label>
+                        <input type="text" id="your-name" name="your-name" pattern="[A-Za-z]+" required>
+                        <label for="your-email">Your enail:</label>
+                        <input type="your-email" id="your-email" name="email" required>
+                        <label for="your-message">Your message:</label>
+                        <textarea id="your-message" name="your-message" required></textarea>
 
-                    </div>
-                    <input type="text" class="your-name">
-                    <div> Your email
-                        <input type="email" class="your-email">
-                    </div>
-                    <div> Your message <br>
-                        <textarea class="your-message">
-                        </textarea>
-                    </div>
-                    <div>
-                        <input type="submit" class="Submit">
-                    </div>
+                        <div>
+                            <input type="submit" class="Submit">
+                        </div>
+                    </form>
                 </div>
             </div>
             <div class="Container-How-can">

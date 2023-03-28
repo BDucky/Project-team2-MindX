@@ -97,3 +97,32 @@ function bodyheader1() {
     }
     up()
 }
+
+//  Lưu thông tin vào localStorage
+
+
+// Lấy form
+const myForm = document.getElementById("myForm");
+
+// Thêm sự kiện "submit" cho form
+myForm.addEventListener("submit", function (event) {
+    event.preventDefault(); // Ngăn chặn việc tải lại trang
+
+    // Lấy các phần tử từ form
+    const nameInput = document.getElementById("your-name");
+    const emailInput = document.getElementById("your-email");
+    const messageInput = document.getElementById("your-message");
+
+    // Lấy giá trị từ các phần tử
+    const nameValue = nameInput.value;
+    const emailValue = emailInput.value;
+    const messageValue = messageInput.value;
+
+    // Lưu giá trị vào local storage
+    localStorage.setItem("name", nameValue);
+    localStorage.setItem("email", emailValue);
+    localStorage.setItem("message", messageValue);
+
+    // Thông báo cho người dùng rằng dữ liệu đã được lưu thành công vào local storage
+    alert("Dữ liệu đã được lưu thành công vào local storage!");
+});

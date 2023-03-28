@@ -892,3 +892,39 @@ details[open] summary~* {
 li {
   list-style: none;
 }
+
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us form label {
+  display: block;
+}
+
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us form #your-name {
+  width: 90%;
+  height: 32px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+  margin: 0 0 25px 0;
+  max-width: 100%;
+}
+
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us form #your-email {
+  width: 90%;
+  max-width: 100%;
+  height: 32px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+  margin: 0 0 25px 0;
+}
+
+body .Container-HTML .Container-Group-Send-How-FAQ .Container-Send .group-send-us form #your-message {
+  width: 90%;
+  max-width: 100%;
+  height: 210px;
+  padding: 16px 22px;
+  border-radius: 8px;
+  border: 1px solid #e4e5e7;
+  font-size: 16px;
+}
